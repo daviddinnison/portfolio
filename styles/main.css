@@ -126,8 +126,8 @@ header li:first-child {
 
 /*PROJECT IMAGES  */
  .project-screenshot img {
-  height: 367px;
-  width: 578px;  
+  height: 405px;
+  width: 540px;  
 } 
 
 .project-screenshot > a {
