@@ -30,9 +30,6 @@ header {
   padding: 30px;
 }
 
-header > h1 {
-}
-
 header ul {
   padding: 0px;
   margin: 0px;
@@ -43,6 +40,9 @@ header li {
   padding: 0px 10px;
 }
 
+header li:first-child {
+  padding: 0px;
+}
 
 /*ABOUT ME  */
 .about {
@@ -138,4 +138,12 @@ header li {
 .contact li {
   display: inline-block;
   padding: 0px 10px;
+}
+
+.contact a, header a {
+  border-bottom: 2px solid transparent;
+  transition: border-bottom 1s;
+}
+.contact a:hover, header a:hover {
+  border-bottom: 2px solid #ff5200; /* <- here */
 }
