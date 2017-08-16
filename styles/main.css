@@ -1,8 +1,9 @@
 /*DEFAULTS  */
 
 body {
-  background-color: #FCFFFF;
-  font-family: 'Roboto', sans-serif;
+  background-color: #FFFFFC;
+  font-family: 'Roboto', sans-serif;  
+
   margin: 0px;
   font-size: 20px;
   line-height: 150%;
@@ -17,7 +18,7 @@ a {
 /*BASIC STYLES  */
 .primary-style {
   background-color: #314a52;
-  color: white
+  color: white;
 }
 
 .secondary-style {
@@ -32,6 +33,9 @@ a {
 /*HEADER  */
 header {
   padding: 30px;
+}
+
+header > h1 {
 }
 
 header ul {
@@ -62,8 +66,12 @@ header li {
   margin: auto;
 }
 
-
-
+/*BUFFER  */
+.buffer {
+  height: 120px;
+  width: 100%;
+  margin: 100px 0px 30px 0px;
+}
 
 
 /*WORK  */
@@ -72,9 +80,9 @@ header li {
 }
 
 .work > h2 {
-  padding: 10px;
+  margin: 0px;
   text-align: center;
-  width: 80%;
+  width: 30%;
 
 }
 
@@ -90,6 +98,9 @@ header li {
   padding: 10px 0px;
 }
 
+.project h4 {
+  margin: 0px;
+}
 .project a {
   background-color: #ff5200;
   color: white;
@@ -99,13 +110,13 @@ header li {
 
 .project ul {
   padding: 0px;
-  margin: 10px;
 }
 
 .project li {
   background-color: #52686a;
   color: white;
   display: inline-block;
+  margin-top: 2px;
   padding: 0px 10px;
 }
 .project-description {
@@ -117,15 +128,20 @@ header li {
 }
 
  .project-screenshot img {
-  height: 90%;
-    width: 90%;  
+  height: 100%;
+  width: 100%;  
 } 
 
 
 
 /*CONTACT  */
 .contact {
-  padding: 30px;
+   padding: 15px; 
+}
+
+.contact > h3 {
+  margin: 0px;
+  padding: 5px 0px 0px 5px;
 }
 
 .contact ul {
