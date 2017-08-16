@@ -1,0 +1,120 @@
+/*DEFAULTS  */
+
+body {
+  background-color: #E8F9FF;
+  font-family: 'Roboto', sans-serif;
+  margin: 0px;
+  font-size: 20px;
+  line-height: 150%;
+}
+
+a {
+  color: #ff5200;
+  text-decoration: none; 
+}
+
+
+/*BASIC STYLES  */
+.primary-style {
+  background-color: #314a52;
+  color: white
+}
+
+.secondary-style {
+  background-color: #52686a;
+  color: white;
+}
+
+.text-style {
+  color: #003355;
+}
+
+/*HEADER  */
+header {
+  padding: 30px;
+}
+
+header ul {
+  padding: 0px;
+  margin: 0px;
+}
+
+header li {
+  display: inline-block;
+  padding: 0px 10px;
+}
+
+
+/*ABOUT ME  */
+.about {
+  padding: 50px 0px;
+}
+
+.about > p {
+  padding: 40px;
+  margin: 0px auto;
+  width: 70%;
+}
+
+.about > img {
+  border-radius: 20%;
+  display: block;
+  margin: auto;
+}
+
+
+
+
+
+/*WORK  */
+.work {
+  margin: 0px auto;
+}
+
+.work > h2 {
+  padding: 20px;
+}
+
+/*PROJECTS  */
+.project {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 10px;
+}
+
+.project > h3 {
+  padding: 10px 0px;
+}
+
+.project a {
+  background-color: #ff5200;
+  color: white;
+  padding: 5px;
+  text-transform: uppercase; 
+}
+
+.project ul {
+  padding: 0px;
+  margin: 10px;
+}
+
+.project li {
+  background-color: #52686a;
+  color: white;
+  display: inline-block;
+  padding: 0px 10px;
+}
+.project-description {
+  padding: 20px;
+  width: 45%;
+}
+.project-screenshot {
+  width: 45%;
+}
+
+ .project-screenshot img {
+  height: 90%;
+    width: 90%;  
+} 

@@ -1,0 +1,94 @@
+<!doctype HTML>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>David Dinnison</title>
+        <link rel="stylesheet" type="text/css" href="styles/grid.css">
+        <link rel="stylesheet" type="text/css" href="styles/grid.css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="styles/main.css">
+    </head>
+    <body>
+        <header class="primary-style">
+            <h1>David Dinnison</h1>
+            <nav class="main-nav">
+                <ul>
+                    <li class="main-nav-link"><a href="#about">About me</a></li>
+                    <li class="main-nav-link"><a href="#work">My work</a></li>
+                    <li class="main-nav-link"><a href="#contact">Contact me</a></li>
+                </ul>
+            </nav> 
+        </header>
+        <section class="about" id="about">
+          <img src="images/headshot.jpg">
+          <p>
+                Hi, I'm David Dinnison, a full-stack web developer from the Washington DC area.  I use React and Node.js to build web apps which leave you with a minty fresh taste in your mouth.  Outside of coding I spend all my time browsing Instagram and riding my bike.
+          </p>
+        </section>
+        
+        <section class="work secondary-style" id="work">
+            <h2>My work</h2>
+              <!--Repeat as necessary  -->
+             
+                <section class="project text-style">
+                  <div class="project-screenshot">
+                     <img src="images/ace-pomodoro.jpg"> 
+                  </div>
+                  <div class="project-description">
+                    <h3>Ace Pomodoro</h3> 
+                    <p>
+                        Ace Pomodoro combines customizable Pomodoro sessions with continuous data aggregation for users to track their progress towards their goals. You can see the total amount of time spent working towards a goal by labeling Pomodoro sessions, and view graphic visuals of session data on your profile page.
+                    </p>
+                    <h4>Technologies used</h4>
+                    <ul class="project-stack">
+                        <li class="project-stack-item">
+                            React
+                        </li>
+                        <li class="project-stack-item">
+                            Redux
+                        </li>
+                        <li class="project-stack-item">
+                            Postgres
+                        </li>
+                        <li class="project-stack-item">
+                            Node
+                        </li>
+                        <li class="project-stack-item">
+                            Passport
+                        </li>
+                        <li class="project-stack-item">
+                            Knex
+                        </li>
+                        <li class="project-stack-item">
+                            Mocha
+                        </li>
+                        <li class="project-stack-item">
+                            Enzyme
+                        </li>
+                        <li class="project-stack-item">
+                            Moment
+                        </li>
+                    </ul>
+                    <a href="#">Live demo</a>
+                    <a href="#">Source code</a>
+                  </div>
+                </section>
+               
+          
+        </section>
+        <section class="contact primary-style" id="contact">
+            <h2>Contact me</h2>
+            <form action="https://formspree.io/jrandomhacker@example.com"
+                  method="POST">
+                <label for="contact-form-name">Your Name</label>
+                <input type="text" name="name" id="contact-form-name" placeholder="Grace Hopper">
+                <label for="contact-form-email">Your Email Address</label>
+                <input type="email" name="_replyto" id="contact-form-email" placeholder="grace@example.com">
+                <label for="contact-form-message">Message</label>
+                <textarea name="message" id="contact-form-message"></textarea>
+                <input type="submit" value="Send message">
+            </form> 
+        </section>
+    </body>
+</html>
