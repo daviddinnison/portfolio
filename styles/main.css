@@ -18,12 +18,7 @@ a {
 /*BASIC STYLES  */
 .primary-style {
   background-color: #314a52;
-  color: white;
-}
-
-.secondary-style {
-  background-color: #52686a;
-  color: white;
+  color: #F5F5F2;
 }
 
 .text-style {
@@ -51,28 +46,19 @@ header li {
 
 /*ABOUT ME  */
 .about {
-  padding: 50px 0px;
+  background-color: #F5F5F2;
+  display: flex;
+  padding: 150px;
+  margin-bottom: 30px;
 }
 
 .about > p {
   padding: 40px;
-  margin: 0px auto;
-  width: 70%;
 }
 
-.about > img {
-  border-radius: 20%;
-  display: block;
-  margin: auto;
+.about img {
+  border-radius: 50%;
 }
-
-/*BUFFER  */
-.buffer {
-  height: 120px;
-  width: 100%;
-  margin: 100px 0px 30px 0px;
-}
-
 
 /*WORK  */
 .work {
@@ -83,7 +69,6 @@ header li {
   margin: 0px;
   text-align: center;
   width: 30%;
-
 }
 
 /*PROJECTS  */
@@ -103,7 +88,7 @@ header li {
 }
 .project a {
   background-color: #ff5200;
-  color: white;
+  color: #F5F5F2;
   padding: 5px;
   text-transform: uppercase; 
 }
@@ -113,10 +98,11 @@ header li {
 }
 
 .project li {
-  background-color: #52686a;
-  color: white;
+  border: 1px solid #E1E1DE; 
+  box-shadow:0px 1px 1px #E1E1DE;
+  color: #52686a;
   display: inline-block;
-  margin-top: 2px;
+  margin-bottom: 4px;
   padding: 0px 10px;
 }
 .project-description {
