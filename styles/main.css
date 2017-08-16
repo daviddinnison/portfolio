@@ -3,7 +3,6 @@
 body {
   background-color: #FFFFFC;
   font-family: 'Roboto', sans-serif;  
-
   margin: 0px;
   font-size: 20px;
   line-height: 150%;
@@ -88,13 +87,23 @@ header li:first-child {
   margin: 0px;
 }
 .project a {
-  background-color: #ff5200;
-  color: #F5F5F2;
-  padding: 5px;
+  padding: 10px;
   text-transform: uppercase; 
 }
 
+.live-demo {
+  background-color: #ff5200;
+  color: #F5F5F2;
+}
+
+.source-code {
+  background-color: #52686a;
+  color: #f5f5f2;
+}
+
 .project ul {
+  margin-top: 0px;
+  margin-bottom: 12px;
   padding: 0px;
 }
 
@@ -107,7 +116,7 @@ header li:first-child {
   padding: 0px 10px;
 }
 .project-description {
-  /* padding: 20px; */
+  padding: 20px; 
   width: 45%;
 }
 .project-screenshot {
