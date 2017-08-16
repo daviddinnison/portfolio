@@ -1,7 +1,7 @@
 /*DEFAULTS  */
 
 body {
-  background-color: #E8F9FF;
+  background-color: #FCFFFF;
   font-family: 'Roboto', sans-serif;
   margin: 0px;
   font-size: 20px;
@@ -72,12 +72,14 @@ header li {
 }
 
 .work > h2 {
-  padding: 20px;
+  padding: 10px;
+  text-align: center;
+  width: 80%;
+
 }
 
 /*PROJECTS  */
 .project {
-  background-color: white;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -118,3 +120,20 @@ header li {
   height: 90%;
     width: 90%;  
 } 
+
+
+
+/*CONTACT  */
+.contact {
+  padding: 30px;
+}
+
+.contact ul {
+  padding: 0px;
+  margin: 0px;
+}
+
+.contact li {
+  display: inline-block;
+  padding: 0px 10px;
+}

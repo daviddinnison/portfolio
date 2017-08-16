@@ -20,14 +20,14 @@
                 </ul>
             </nav> 
         </header>
-        <section class="about" id="about">
+        <section class="about text-style" id="about">
           <img src="images/headshot.jpg">
           <p>
                 Hi, I'm David Dinnison, a full-stack web developer from the Washington DC area.  I use React and Node.js to build web apps which leave you with a minty fresh taste in your mouth.  Outside of coding I spend all my time browsing Instagram and riding my bike.
           </p>
         </section>
         
-        <section class="work secondary-style" id="work">
+        <section class="work text-style" id="work">
             <h2>My work</h2>
               <!--Repeat as necessary  -->
              
@@ -79,16 +79,13 @@
         </section>
         <section class="contact primary-style" id="contact">
             <h2>Contact me</h2>
-            <form action="https://formspree.io/jrandomhacker@example.com"
-                  method="POST">
-                <label for="contact-form-name">Your Name</label>
-                <input type="text" name="name" id="contact-form-name" placeholder="Grace Hopper">
-                <label for="contact-form-email">Your Email Address</label>
-                <input type="email" name="_replyto" id="contact-form-email" placeholder="grace@example.com">
-                <label for="contact-form-message">Message</label>
-                <textarea name="message" id="contact-form-message"></textarea>
-                <input type="submit" value="Send message">
-            </form> 
+             <nav class="contact-nav">
+                <ul>
+                    <li class="contact-nav-link"><a href="#">Email</a></li>
+                    <li class="contact-nav-link"><a href="#">Github</a></li>
+                    <li class="contact-nav-link"><a href="#">Linkedin</a></li>
+                </ul>
+            </nav> 
         </section>
     </body>
 </html>
