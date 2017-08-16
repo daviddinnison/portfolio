@@ -52,17 +52,21 @@ header li:first-child {
 /*ABOUT ME  */
 .about {
   background-color: #F5F5F2;
-  display: flex;
-  padding: 150px;
+  padding-top: 30px; 
   margin-bottom: 30px;
 }
 
 .about > p {
-  padding: 40px;
+   padding: 40px; 
 }
 
-.about img {
+.headshot-container {
+  max-width: 200px;
+}
+
+.headshot-container img {
   border-radius: 50%;
+  width: 100%;
 }
 
 /*WORK  */
@@ -72,9 +76,9 @@ header li:first-child {
 
 /*PROJECTS  */
 .project {
-  display: flex;
+  /* display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: center; */
   margin-bottom: 50px;
   padding: 10px;
 }
@@ -115,19 +119,22 @@ header li:first-child {
   margin-bottom: 4px;
   padding: 0px 10px;
 }
+
 .project-description {
   padding: 20px; 
-  width: 45%;
+  /* width: 45%; */
 }
+
 .project-screenshot {
-  padding-left: 20px;
-  width: 45%;
+  max-width: 540px;
+  overflow: hidden;
+  /* padding-left: 20px; */
+  /* width: 45%;  */
 }
 
 /*PROJECT IMAGES  */
  .project-screenshot img {
-  height: 405px;
-  width: 540px;  
+  width: 100%;
 } 
 
 .project-screenshot > a {

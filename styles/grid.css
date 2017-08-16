@@ -4,7 +4,7 @@
 
 /*GRID*/
 .row {
-  max-width: 1000px;
+  max-width: 100%;
   padding-left: 20px;
   padding-right: 20px;
   margin: 0 auto;
@@ -22,7 +22,7 @@
 }
 
 
-.col-3, .col-4, .col-6, .col-12 {
+.col-3, .col-4, .col-6, .col-9, .col-12 {
   float: left;
 
 /*GUTTERS*/
@@ -32,7 +32,7 @@
 
 
 /* MOBILE/DEFAULT COLUMN BEHAVIORS */
-.col-3, .col-4, .col-6, .col-12 {
+.col-3, .col-4, .col-6, .col-9, .col-12 {
   width: 100%;
 }
 
@@ -48,7 +48,12 @@
   }
 
   .col-6 {
+    margin-left: 30px;
     width: 50%;
+  }
+
+  .col-9 {
+    width: 75%;
   }
 
   .col-12 {
