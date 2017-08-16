@@ -47,7 +47,7 @@ header li {
 }
 
 header li:first-child {
-  padding: 0px;
+  padding-left: 0px;
 }
 
 /*ABOUT ME  */
@@ -115,21 +115,25 @@ header li:first-child {
   width: 45%;
 }
 
+/*PROJECT IMAGES  */
  .project-screenshot img {
   height: 367px;
   width: 578px;  
 } 
 
+.project-screenshot > a {
+  background-color: transparent;
+}
+
 
 
 /*CONTACT  */
 .contact {
-   padding: 15px; 
+   padding: 35px; 
 }
 
 .contact > h3 {
   margin: 0px;
-  padding: 5px 0px 0px 5px;
 }
 
 .contact ul {
@@ -140,6 +144,10 @@ header li:first-child {
 .contact li {
   display: inline-block;
   padding: 0px 10px;
+}
+
+.contact li:first-child {
+  padding-left: 0px;
 }
 
 /*EFFECTS
