@@ -52,8 +52,9 @@ header li:first-child {
 /*ABOUT ME  */
 .about {
   background-color: #F5F5F2;
-  padding-top: 30px; 
-  margin-bottom: 30px;
+  padding-bottom: 90px; 
+  padding-top: 90px;
+  margin-bottom: 40px;
 }
 
 .about > p {
