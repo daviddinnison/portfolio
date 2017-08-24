@@ -2,7 +2,7 @@
 
 body {
   background-color: #FFFFFC;
-  font-family: 'Roboto', sans-serif;  
+  font-family: 'Noto+Sans', sans-serif;  
   margin: 0px;
   font-size: 20px;
   line-height: 150%;
@@ -27,12 +27,12 @@ a {
 /*HEADER  */
 header {
   padding: 30px;
+  padding-left: 60px;
 }
 
 header > h1 {
   line-height: 80%;
   max-width: 100px;
-  margin-top: 0px;
 }
 
 header ul {
@@ -57,8 +57,8 @@ header li:first-child {
   margin-bottom: 40px;
 }
 
-.about > p {
-   padding: 40px; 
+.about-me-text {
+  min-width: 75%;
 }
 
 .headshot-container {
@@ -77,15 +77,13 @@ header li:first-child {
 
 /*PROJECTS  */
 .project {
-  /* display: flex;
-  justify-content: space-between;
-  align-items: center; */
   margin-bottom: 50px;
   padding: 10px;
 }
 
-.project > h3 {
-  padding: 10px 0px;
+.project h3 {
+  margin-top: 0px;
+  padding-left: 10px;
 }
 
 .project h4 {
@@ -122,15 +120,14 @@ header li:first-child {
 }
 
 .project-description {
-  padding: 20px; 
-  /* width: 45%; */
+  padding: 20px;
+  padding-top: 40px; 
 }
 
 .project-screenshot {
   max-width: 540px;
   overflow: hidden;
-  /* padding-left: 20px; */
-  /* width: 45%;  */
+  padding-top: 0px
 }
 
 /*PROJECT IMAGES  */
@@ -167,11 +164,10 @@ header li:first-child {
   padding-left: 0px;
 }
 
-/*EFFECTS
-/option 1 */
+/*EFFECTS*/
  .contact a, header a {
   border-bottom: 2px solid transparent;
-  transition: border-bottom 1s;
+  transition: border-bottom .5s;
 }
 
 .contact a:hover, header a:hover {
