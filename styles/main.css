@@ -61,12 +61,11 @@ header li:first-child {
   min-width: 75%;
 }
 
-.headshot-container {
-  max-width: 200px;
-}
 
 .headshot-container img {
   border-radius: 50%;
+  margin-bottom: 20px;
+  max-width: 200px;
   width: 100%;
 }
 
