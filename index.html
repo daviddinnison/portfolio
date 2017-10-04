@@ -5,11 +5,12 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>David Dinnison</title>
         <link rel="shortcut icon" href="images/favicon.ico">
-        <!-- <link rel="stylesheet" type="text/css" href="styles/grid.css"> -->
         <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="styles/main.css">
     </head>
     <body>
+
+        <!-- Header -->
         <header class="primary-style">
             <h1>David Dinnison</h1>
             <nav class="main-nav">
@@ -21,147 +22,153 @@
             </nav>
         </header>
             
-            <section class="about text-style row" id="about">
-                <div class="headshot-container col-3">
-                    <img src="images/headshot.jpg">
-                </div>
-                <div class="about-me-text col-9">
-                    <p>
-                        Hi, I'm David Dinnison, a full-stack web developer from the Washington DC area.  
-                        I like making websites that are simple and useful. 
-                        My goal is for users to accomplish everything they need to do quickly and without a hassle.
-                        Outside of coding I spend all my time browsing Instagram and riding my bike.
-                    </p>
-                </div>
-             
-            </section>
-
-            <!-- work section -->
-            <section class="work text-style" id="work">
-
-                <!-- Learn Croatian -->
-                <section class="project text-style row">
-                    <div class="project-screenshot col-6">
-                        
-                
-                        <a href="https://immense-gorge-37468.herokuapp.com/" target="_blank">
-                            <img src="images/learn-croatian.PNG"> 
-                        </a>
-                    </div>
-                    <div class="project-description col-6">
-                        <h3>Learn Croatian</h3> 
-                        <p>
-                            Learn Croatian is an app for users to learn basic Croatian. 
-                            It utilizes spaced repetition to allow users to practice unfamiliar words more frequently. 
-                            Users are authorized with Google logins and user performance is saved. 
-                            The interface is sleek and minimal, and feedback is instantaneous.
-                        </p>
-                        <h4>Technologies used</h4>
-                        <ul class="project-stack">
-                            <li class="project-stack-item">Mongo</li>
-                            <li class="project-stack-item">Mongoose</li>
-                            <li class="project-stack-item">React</li>
-                            <li class="project-stack-item">Node</li>
-                            <li class="project-stack-item">Google OAuth</li>
-                        </ul>
-                        <a href="https://immense-gorge-37468.herokuapp.com/" target="_blank" class="live-demo">Live demo</a>
-                        <a href="https://github.com/daviddinnison/language-spaced-repetition" target="_blank" class="source-code">Source code</a>
-                    </div>
-                    
-                </section>
-                    <section class="project text-style row" id="ace-pomodoro">
-                        <div class="project-screenshot col-6">
-                            <a href="https://github.com/krp312/ace-pomodoro" target="_blank">
-                                <img src="images/ace-pomodoro.JPG"> 
-                            </a>
-                        </div>
-                        <div class="project-description col-6">
-                            <h3>Ace Pomodoro</h3>
-                            <p>
-                                Ace Pomodoro combines customizable Pomodoro sessions with continuous data aggregation for users to track their progress towards their goals. 
-                                You can see the total amount of time spent working towards a goal by labeling Pomodoro sessions, and view graphic visuals of session data on your profile page.
-                            </p>
-                            <h4>Technologies used</h4>
-                            <ul class="project-stack">
-                                <li class="project-stack-item">React</li>
-                                <li class="project-stack-item">Redux</li>
-                                <li class="project-stack-item">Postgres</li>
-                                <li class="project-stack-item">Node</li>
-                                <li class="project-stack-item">Passport</li>
-                                <li class="project-stack-item">Knex</li>
-                                <li class="project-stack-item">Mocha</li>
-                                <li class="project-stack-item">Enzyme</li>
-                                <li class="project-stack-item">Moment</li>
-                            </ul>
-                            <a href="https://github.com/krp312/ace-pomodoro" target="_blank" class="live-demo">Live demo</a>
-                            <a href="https://github.com/krp312/ace-pomodoro" target="_blank" class="source-code">Source code</a>
-                        </div>
-                    </section>
-
-                    <section class="project text-style row">
-                        <div class="project-screenshot col-6">
-                            <a href="https://epiquotes.herokuapp.com/" target="_blank">
-                                <img src="images/epiquotes.JPG"> 
-                            </a>
-                        </div>
-                        <div class="project-description col-6">
-                            <h3>EpiQuotes</h3> 
-                            <p>
-                                When a user needs an inspirational quote to put into a company email, they can use this site. 
-                                When a user hears a quote they want to remember, they can add this quote to the database. 
-                                When a user wants a quick laugh or a quick distraction they can search for funny quotes. 
-                                Quotes are displayed by popularity and users can cast their votes to help the following data getters find the most up-voted quotes.
-                            </p>
-                            <h4>Technologies used</h4>
-                            <ul class="project-stack">
-                                <li class="project-stack-item">Mongo</li>
-                                <li class="project-stack-item">Mongoose</li>
-                                <li class="project-stack-item">Mocha</li>
-                                <li class="project-stack-item">Chai</li>
-                                <li class="project-stack-item">Node</li>
-                            </ul>
-                            <a href="https://epiquotes.herokuapp.com/" target="_blank" class="live-demo">Live demo</a>
-                            <a href="https://github.com/lewi-g/EpiQuotes" target="_blank" class="source-code">Source code</a>
-                        </div>
-                    </section>
-                    <section class="project text-style row">
-                        <div class="project-screenshot col-6">
-                            <a href="https://daviddinnison.github.io/gapi-hospital/" target="_blank">
-                                <img src="images/find-my-hospital.JPG"> 
-                            </a>
-                        </div>
-                        <div class="project-description col-6">
-                            <h3>Find My Hospital</h3> 
-                            <p>
-                                Find My Hospital allows users to create an map of nearby hospitals using a zip code.
-                                Results are displayed using Google Maps and markers containg useful information, such as name, address, and ratings.
-                                A text-based list of each result at the bottom of the map displays additional information.
-                            </p>
-                            <h4>Technologies used</h4>
-                            <ul class="project-stack">
-                                <li class="project-stack-item">JQuery</li>
-                                <li class="project-stack-item">Google Maps API</li>
-                                <li class="project-stack-item">Google Places API</li>
-                            </ul>
-                            <a href="https://daviddinnison.github.io/gapi-hospital/" target="_blank" class="live-demo">Live demo</a>
-                            <a href="https://github.com/daviddinnison/gapi-hospital" target="_blank" class="source-code">Source code</a>
-                        </div>
-                    </section>
-            </section>
-        </main>
-        <section class="contact primary-style" id="contact">
-            <h3>Contact me</h3>
-             <nav class="contact-nav">
-                <ul>
-                    <li class="contact-nav-link"><a href="mailto:david.g.dinnison@gmail.com">Email</a></li>
-                    <li class="contact-nav-link"><a href="https://github.com/daviddinnison" target="_blank">Github</a></li>
-                    <li class="contact-nav-link"><a href="https://www.linkedin.com/in/david-dinnison/" target="_blank">Linkedin</a></li>
-                </ul>
-            </nav> 
-        
+        <!-- About me -->
+        <section class="about text-style row" id="about">
+            <div class="headshot-container col-3">
+                <img src="images/headshot.jpg">
+            </div>
+            <div class="about-me-text col-9">
+                <p>
+                    Hi, I'm David Dinnison, a full-stack web developer from the Washington DC area.  
+                    I like making websites that are simple and useful. 
+                    My goal is for users to accomplish everything they need to do quickly and without a hassle.
+                    Outside of coding I spend all my time browsing Instagram and riding my bike.
+                </p>
+            </div>
         </section>
 
+        <!-- work section -->
+    <main>
+        <section class="work text-style" id="work">
+
+            <!-- Learn Croatian -->
+            <section class="project text-style row">
+                <div class="project-screenshot col-6">
+                    <a href="https://immense-gorge-37468.herokuapp.com/" target="_blank">
+                        <img src="images/learn-croatian.PNG"> 
+                    </a>
+                </div>
+                <div class="project-description col-6">
+                    <h3>Learn Croatian</h3> 
+                    <p>
+                        Learn Croatian is an app for users to learn basic Croatian. 
+                        It utilizes spaced repetition to allow users to practice unfamiliar words more frequently. 
+                        Users are authorized with Google logins and user performance is saved. 
+                        The interface is sleek and minimal, and feedback is instantaneous.
+                    </p>
+                    <h4>Technologies used</h4>
+                    <ul class="project-stack">
+                        <li class="project-stack-item">Mongo</li>
+                        <li class="project-stack-item">Mongoose</li>
+                        <li class="project-stack-item">React</li>
+                        <li class="project-stack-item">Node</li>
+                        <li class="project-stack-item">Google OAuth</li>
+                    </ul>
+                    <a href="https://immense-gorge-37468.herokuapp.com/" target="_blank" class="live-demo">Live demo</a>
+                    <a href="https://github.com/daviddinnison/language-spaced-repetition" target="_blank" class="source-code">Source code</a>
+                </div>    
+            </section>
+
+            <!-- Ace Pomodoro -->
+            <section class="project text-style row" id="ace-pomodoro">
+                <div class="project-screenshot col-6">
+                    <a href="http://ace-pomodoro.herokuapp.com/" target="_blank">
+                        <img src="images/ace-pomodoro.JPG"> 
+                    </a>
+                </div>
+                <div class="project-description col-6">
+                    <h3>Ace Pomodoro</h3>
+                    <p>
+                        Ace Pomodoro combines customizable Pomodoro sessions with continuous data aggregation for users to track their progress towards their goals. 
+                        You can see the total amount of time spent working towards a goal by labeling Pomodoro sessions, and view graphic visuals of session data on your profile page.
+                    </p>
+                    <h4>Technologies used</h4>
+                    <ul class="project-stack">
+                        <li class="project-stack-item">React</li>
+                        <li class="project-stack-item">Redux</li>
+                        <li class="project-stack-item">Postgres</li>
+                        <li class="project-stack-item">Node</li>
+                        <li class="project-stack-item">Passport</li>
+                        <li class="project-stack-item">Knex</li>
+                        <li class="project-stack-item">Mocha</li>
+                        <li class="project-stack-item">Enzyme</li>
+                        <li class="project-stack-item">Moment</li>
+                    </ul>
+                    <a href="http://ace-pomodoro.herokuapp.com/" target="_blank" class="live-demo">Live demo</a>
+                    <a href="https://github.com/krp312/ace-pomodoro" target="_blank" class="source-code">Source code</a>
+                </div>
+            </section>
+
+            <!-- EpiQuotes -->
+            <section class="project text-style row">
+                <div class="project-screenshot col-6">
+                    <a href="https://epiquotes.herokuapp.com/" target="_blank">
+                        <img src="images/epiquotes.JPG"> 
+                    </a>
+                </div>
+                <div class="project-description col-6">
+                    <h3>EpiQuotes</h3> 
+                    <p>
+                        When a user needs an inspirational quote to put into a company email, they can use this site. 
+                        When a user hears a quote they want to remember, they can add this quote to the database. 
+                        When a user wants a quick laugh or a quick distraction they can search for funny quotes. 
+                        Quotes are displayed by popularity and users can cast their votes to help the following data getters find the most up-voted quotes.
+                    </p>
+                    <h4>Technologies used</h4>
+                    <ul class="project-stack">
+                        <li class="project-stack-item">Mongo</li>
+                        <li class="project-stack-item">Mongoose</li>
+                        <li class="project-stack-item">Mocha</li>
+                        <li class="project-stack-item">Chai</li>
+                        <li class="project-stack-item">Node</li>
+                    </ul>
+                    <a href="https://epiquotes.herokuapp.com/" target="_blank" class="live-demo">Live demo</a>
+                    <a href="https://github.com/lewi-g/EpiQuotes" target="_blank" class="source-code">Source code</a>
+                </div>
+            </section>
+
+            <!-- Find My Hospital -->
+            <section class="project text-style row">
+                <div class="project-screenshot col-6">
+                    <a href="https://daviddinnison.github.io/gapi-hospital/" target="_blank">
+                        <img src="images/find-my-hospital.JPG"> 
+                    </a>
+                </div>
+                <div class="project-description col-6">
+                    <h3>Find My Hospital</h3> 
+                    <p>
+                        Find My Hospital allows users to create an map of nearby hospitals using a zip code.
+                        Results are displayed using Google Maps and markers containg useful information, such as name, address, and ratings.
+                        A text-based list of each result at the bottom of the map displays additional information.
+                    </p>
+                    <h4>Technologies used</h4>
+                    <ul class="project-stack">
+                        <li class="project-stack-item">JQuery</li>
+                        <li class="project-stack-item">Google Maps API</li>
+                        <li class="project-stack-item">Google Places API</li>
+                    </ul>
+                    <a href="https://daviddinnison.github.io/gapi-hospital/" target="_blank" class="live-demo">Live demo</a>
+                    <a href="https://github.com/daviddinnison/gapi-hospital" target="_blank" class="source-code">Source code</a>
+                </div>
+            </section>
+        </section>
+    </main>
+
+        <!-- Contact -->
+    <section class="contact primary-style" id="contact">
+        <h3>Contact me</h3>
+        <nav class="contact-nav">
+            <ul>
+                <li class="contact-nav-link"><a href="mailto:david.g.dinnison@gmail.com">Email</a></li>
+                <li class="contact-nav-link"><a href="https://github.com/daviddinnison" target="_blank">Github</a></li>
+                <li class="contact-nav-link"><a href="https://www.linkedin.com/in/david-dinnison/" target="_blank">Linkedin</a></li>
+            </ul>
+        </nav> 
+    </section>
+
+    <!-- Scripts -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="scripts/app.js"></script>
+
     </body>
 </html>
