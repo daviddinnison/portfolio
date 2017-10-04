@@ -82,10 +82,23 @@ header li:first-child {
   margin-bottom: 50px;
   padding: 10px;
 }
+.project-description {
+  width: 29.636363636364%;
+  float: right;
+}
+
+.project .project-screenshot {
+  width: 64.818181818182%;
+  float: left;
+}
+
+.project-screenshot {
+  margin-bottom: 45px;
+  position: relative;
+}
 
 .project h3 {
   margin-top: 0px;
-  padding-left: 10px;
 }
 
 .project h4 {
@@ -96,6 +109,29 @@ header li:first-child {
   text-transform: uppercase; 
 }
 
+
+.project ul {
+  margin-top: 0px;
+  margin-bottom: 12px;
+  padding: 0px;
+}
+
+.project li {
+  border: 1px solid #E1E1DE; 
+  box-shadow:0px 1px 1px #E1E1DE;
+  color: #52686a;
+  display: inline-block;
+  margin-bottom: 4px;
+  padding: 0px 10px;
+}
+
+.project:after {
+  display: block;
+  clear: both;
+  content: '';
+}
+
+/* PROJECT BUTTONS */
 .live-demo {
   background-color: #ff5200;
   color: #F5F5F2;
@@ -114,32 +150,6 @@ header li:first-child {
 
 .source-code:hover {
   background-color: #2A4042;
-}
-
-.project ul {
-  margin-top: 0px;
-  margin-bottom: 12px;
-  padding: 0px;
-}
-
-.project li {
-  border: 1px solid #E1E1DE; 
-  box-shadow:0px 1px 1px #E1E1DE;
-  color: #52686a;
-  display: inline-block;
-  margin-bottom: 4px;
-  padding: 0px 10px;
-}
-
-.project-description {
-  padding: 20px;
-  padding-top: 40px; 
-}
-
-.project-screenshot {
-  max-width: 540px;
-  overflow: hidden;
-  padding-top: 0px
 }
 
 /*PROJECT IMAGES  */
