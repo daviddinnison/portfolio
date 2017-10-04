@@ -50,6 +50,16 @@ header li:first-child {
   padding-left: 0px;
 }
 
+.main-nav {
+  background-color: #314a52;
+}
+
+.navbar-fixed {
+  top: 0;
+  z-index: 100;
+position: fixed;
+  width: 100%;
+}
 
 /*ABOUT ME  */
 .about {
@@ -110,7 +120,8 @@ header li:first-child {
 }
 .project a {
   padding: 10px;
-  text-transform: uppercase; 
+  text-transform: uppercase;
+  white-space: nowrap;
 }
 
 .project-stack {
@@ -151,6 +162,11 @@ header li:first-child {
 
 
 /* PROJECT BUTTONS */
+
+.live-demo, .source-code {
+  margin-bottom: 13px;
+}
+
 .live-demo {
   background-color: #ff5200;
   color: #F5F5F2;
