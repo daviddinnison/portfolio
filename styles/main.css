@@ -15,8 +15,13 @@ a {
 
 /*BASIC STYLES  */
 .primary-style {
-  background-color: #314a52;
+  background-color: #08222a;
   color: #F5F5F2;
+}
+
+.secondary-style {
+  background-color: #314a52;
+  color: white;
 }
 
 .text-style {
@@ -26,67 +31,41 @@ a {
 
 /*HEADER  */
 header {
-  padding: 100px;
+  padding: 120px;
 }
 
 header > h1 {
   line-height: 80%;
-  max-width: 100px;
+  max-width: 80px;
 }
 
-.sfx {
-  text-align: center;
-  font-weight: 700;
-  color: white;
-  -webkit-text-stroke: 1px rgba(0, 0, 0, 0.2);
-  text-shadow: -5px 0 rgba(0, 255, 255, 0.4), 5px 0 rgba(255, 0, 255, 0.4);
+header > h2 {
+  font-size: 15px;
+
 }
-
-
-.parallax {
-  background-image: url('../images/banner.svg');
-  /* background-image: url('../images/headshot.jpg'); */
-  
-  /* Set a specific height */
-  /* min-height: 500px;  */
-  
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 
 .main-nav {
-  background-color: #C06C84;
   color: white;
   padding: 0px;
 
 }
-
 .main-nav a {
   color: white;
+  font-size: 18px;
 }
 
-nav ul {
-  padding: 0px;
+.main-nav ul {
+  padding: 10px;
+  padding-left: 120px;
   margin: 0px;
 }
 
-nav li {
+.main-nav li {
   display: inline-block;
   padding: 0px 10px;
 }
 
 
-
-.main-nav {
-  padding: 10px;
-  text-align: center;
-  text-transform: uppercase;
-  z-index: 100;
-}
 
 /*ABOUT ME  */
 
@@ -103,7 +82,7 @@ nav li {
 }
 
 .about-me-text {
-  width: 85%;
+  width: 70%;
   float: left;
 }
 
@@ -111,23 +90,22 @@ nav li {
   padding: 50px;
 }
 .headshot-container {
-  width: 15%;
+  width: 30%;
   float: left;
 }
 
 .headshot-container img {
-  border-radius: 50%;
-  display: block;
+  /* border-radius: 50%; */
+  display: inline-block;
   margin: 0px auto;
   margin-bottom: 20px;
   max-width: 200px;
-  width: 100%;
+  /* width: 100%; */
 }
 
 
 /*WORK  */
 .work {
-  background-color: #F5F5F2;
   margin-bottom: 140px; 
   padding-top: 20px;
 }
@@ -135,9 +113,12 @@ nav li {
 
 /*PROJECTS  */
 .project {
+  background-color: #FFFFFC;
   box-sizing:border-box;
+  margin: 0px auto;
   margin-bottom: 50px;
   padding: 0px;
+  width: 90%;
 }
 .project-description {
   width: 50%;
@@ -279,6 +260,19 @@ nav li {
 
 /* MEDIA QUERIES */
 @media screen and (max-width: 920px) {
+  header {
+    padding: 100px 5px;
+  }
+  .main-nav ul {
+    font-size: 15px;
+    padding-left: 5px;
+  }
+  .main-nav li {
+    margin: 0px;
+  }
+  .about-me-text > p {
+    padding: 5px;
+  }
   .project .project-screenshots, .project-description, .about-me-text, .headshot-container {
       max-width: 100%;
       width: 100%;
