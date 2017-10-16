@@ -70,6 +70,7 @@ header > h2 {
 /*ABOUT ME  */
 
 .about {
+  background-color: #FFFFFC;
   padding-bottom: 150px; 
   padding-top: 90px;
   margin-bottom: 40px;
@@ -113,7 +114,6 @@ header > h2 {
 
 /*PROJECTS  */
 .project {
-  background-color: #FFFFFC;
   box-sizing:border-box;
   margin: 0px auto;
   margin-bottom: 50px;
