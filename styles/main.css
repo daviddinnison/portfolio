@@ -117,7 +117,7 @@ header > h2 {
 .project {
   box-sizing:border-box;
   margin: 0px auto;
-  margin-bottom: 50px;
+  margin-bottom: 150px;
   padding: 0px;
   width: 90%;
 }
@@ -135,10 +135,12 @@ header > h2 {
   float: left;
 }
 
+
+
 .project-screenshots {
   display: block;
-  margin-bottom: 45px;
   position: relative;
+
 }
 
 .project-description a {
@@ -146,23 +148,33 @@ header > h2 {
 }
 
 /*PROJECT IMAGES  */
-.project-screenshots img {
-  padding: 20px;
-  width: 100%;
-} 
-.mobile-img {
-  position: absolute;
-  bottom: -20px;
-  right: -50px;
-  width: 60%; 
-}
-
-.mobile-img > img {
-  width: 35%;
+.project-screenshots {
+  height: 400px;
+  width: 683px;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .project-screenshots > a {
   background-color: transparent;
+}
+
+
+.learn-croatian {
+  background-image: url('../images/learn-croatian.PNG');
+}
+
+.ace-pomodoro {
+  background-image: url('../images/ace-pomodoro.PNG');
+}
+
+.epiquotes {
+  background-image: url('../images/epiquotes.PNG');
+}
+
+.find-my-hospital {
+  background-image: url('../images/find-my-hospital.PNG');
+  
 }
 
 /* PROJECT HEADINGS */
@@ -275,9 +287,11 @@ header > h2 {
     padding: 5px;
   }
   .project .project-screenshots, .project-description, .about-me-text, .headshot-container {
-      max-width: 100%;
       width: 100%;
       float: none;
+  }
+  .project-screenshots {
+    max-height: 230px;
   }
   .project-description > div {
     padding: 10px;
