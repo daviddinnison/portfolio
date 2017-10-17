@@ -45,23 +45,23 @@ header > h2 {
 }
 
 .main-nav {
-  color: white;
   padding: 0px;
 
 }
 .main-nav a {
-  color: white;
+  color: white; 
   font-size: 18px;
 }
 
 .main-nav ul {
-  padding: 10px;
+  padding: 15px;
   padding-left: 120px;
   margin: 0px;
 }
 
 .main-nav li {
   display: inline-block;
+  font-size: 20px;
   padding: 0px 10px;
 }
 
@@ -92,6 +92,7 @@ header > h2 {
 }
 .headshot-container {
   width: 30%;
+  /* min-width: 370px; */
   float: left;
 }
 
@@ -100,7 +101,7 @@ header > h2 {
   display: inline-block;
   margin: 0px auto;
   margin-bottom: 20px;
-  max-width: 200px;
+  max-width: 180px;
   /* width: 100%; */
 }
 
