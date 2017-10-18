@@ -47,7 +47,7 @@ header > h2 {
 
 }
 
-.other {
+.header-accent {
   font-size: 60px;
 }
 
@@ -56,9 +56,11 @@ header > h2 {
   /* opacity: 0.8; */
 }
 
+
 /* MAIN NAV */
 .main-nav {
   padding: 0px;
+  z-index: 150;
 }
 .main-nav a {
   color: white; 
@@ -83,6 +85,12 @@ header > h2 {
   font-size: 20px;
 }
 
+/* nav scroll effect */
+.main-nav-scrolled {
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
 
 
 /*ABOUT ME  */

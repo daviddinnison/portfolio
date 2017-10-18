@@ -1,23 +1,27 @@
-function eventHandling() {
-    //smooth scrolling for nav ids
-    $('a[href*=\\#]').on('click', function(event){     
+//smooth scrolling for nav ids on click
+function navIdScrolling() {
+    $('a[href*=\\#]').on('click', function (event) {
         event.preventDefault();
-        $('html,body').animate({scrollTop:$(this.hash).offset().top}, 700);
+        $('html,body').animate({ scrollTop: $(this.hash).offset().top }, 700);
     });
 }
 
-$(document).ready(function() {
-    eventHandling();
-    // $(window).scroll(function () {
-    //     //if you hard code, then use console
-    //     //.log to determine when you want the 
-    //     //nav bar to stick.  
-    //     console.log($(window).scrollTop())
-    //   if ($(window).scrollTop() > 280) {
-    //     $('.main-nav').addClass('navbar-fixed');
-    //   }
-    //   if ($(window).scrollTop() < 281) {
-    //     $('.main-nav').removeClass('navbar-fixed');
-    //   }
-    // });
+//nav bar fixed on scrolling
+function fixedNavScrolling() {
+    const mainNav = $(".main-nav");
+    const scrolledNav = "main-nav-scrolled";
+    const headerHeight = $('header').outerHeight();
+
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > headerHeight) {
+            mainNav.addClass(scrolledNav);
+        } else {
+            mainNav.removeClass(scrolledNav);
+        }
+    });
+}
+
+$(document).ready(function () {
+    navIdScrolling();
+    fixedNavScrolling();
 });
