@@ -2,10 +2,10 @@
 body {
   background-color: #F5F5F2;
   font-family: 'Noto+Sans', sans-serif;
-  letter-spacing: 0.5px;
-  margin: 0px;
   font-size: 20px;
+  letter-spacing: 0.5px;
   line-height: 150%;
+  margin: 0px;
 }
 
 a {
@@ -32,26 +32,45 @@ a {
 /*HEADER  */
 header {
   padding: 120px;
+  padding-top: 10px;
 }
 
 header > h1 {
+  font-size: 55px;
   line-height: 80%;
-  max-width: 80px;
+  max-width: 120px;
 }
 
 header > h2 {
-  font-size: 15px;
+  /* color: #ff5200; */
+  font-size: 25px;
 
 }
 
+.other {
+  font-size: 60px;
+}
+
+.orange {
+  color: #ff5200;
+  /* opacity: 0.8; */
+}
+
+/* MAIN NAV */
 .main-nav {
   padding: 0px;
-
 }
 .main-nav a {
   color: white; 
+  background-color: #08222a;
   font-size: 18px;
+  padding: 20px;
+  transition: background-color .25s;
 }
+
+.main-nav a:hover {
+  background-color: #5C7274;
+} 
 
 .main-nav ul {
   padding: 15px;
@@ -62,7 +81,6 @@ header > h2 {
 .main-nav li {
   display: inline-block;
   font-size: 20px;
-  padding: 0px 10px;
 }
 
 
@@ -71,9 +89,9 @@ header > h2 {
 
 .about {
   background-color: #FFFFFC;
+  margin-bottom: 40px;
   padding-bottom: 150px; 
   padding-top: 90px;
-  margin-bottom: 40px;
 }
 
 .about:after {
@@ -83,35 +101,31 @@ header > h2 {
 }
 
 .about-me-text {
-  width: 70%;
   float: left;
+  width: 70%;
 }
 
 .about-me-text > p {
   padding: 50px;
 }
+
 .headshot-container {
-  width: 30%;
-  /* min-width: 370px; */
   float: left;
+  width: 30%;
 }
 
 .headshot-container img {
-  /* border-radius: 50%; */
   display: inline-block;
   margin: 0px auto;
   margin-bottom: 20px;
   max-width: 180px;
-  /* width: 100%; */
 }
-
 
 /*WORK  */
 .work {
   margin-bottom: 140px; 
   padding-top: 20px;
 }
-
 
 /*PROJECTS  */
 .project {
@@ -134,7 +148,6 @@ header > h2 {
   width: 50%;
   float: left;
 }
-
 
 
 .project-screenshots {
@@ -174,7 +187,6 @@ header > h2 {
 
 .find-my-hospital {
   background-image: url('../images/find-my-hospital.PNG');
-  
 }
 
 /* PROJECT HEADINGS */
@@ -182,9 +194,6 @@ header > h2 {
   margin-top: 0px;
 }
 
-.project h4 {
-  margin: 0px;
-}
 .project a {
   text-transform: uppercase;
   white-space: nowrap;
@@ -206,21 +215,20 @@ header > h2 {
 }
 
 .project:after {
-  display: block;
   clear: both;
   content: '';
+  display: block;
 }
 
 /* PROJECT BUTTONS */
-
 .live-demo, .source-code {
   margin-bottom: 13px;
+  transition: background-color .25s;
 }
 
 .live-demo {
   background-color: #ff5200;
   color: #F5F5F2;
-  transition: background-color .75s;
 }
 
 .live-demo:hover {
@@ -230,14 +238,13 @@ header > h2 {
 .source-code {
   background-color: #5C7274;
   color: #f5f5f2;
-  transition: background-color .75s;
 }
 
 .source-code:hover {
   background-color: #2A4042;
 }
 
-/*CONTACT  */
+/*CONTACT  FOOTER*/
 .contact {
    padding: 35px; 
 }
@@ -260,10 +267,9 @@ header > h2 {
   padding-left: 0px;
 }
 
-/*EFFECTS*/
  .contact a, header a {
   border-bottom: 2px solid transparent;
-  transition: border-bottom .5s;
+  transition: border-bottom .25s;
 }
 
 .contact a:hover, header a:hover {
@@ -274,7 +280,8 @@ header > h2 {
 /* MEDIA QUERIES */
 @media screen and (max-width: 920px) {
   header {
-    padding: 100px 5px;
+    padding: 60px 5px;
+    padding-top: 10px;
   }
   .main-nav ul {
     font-size: 15px;
@@ -282,6 +289,11 @@ header > h2 {
   }
   .main-nav li {
     margin: 0px;
+  }
+
+  .about {
+    padding-top: 20px;
+    padding-bottom: 0px;
   }
   .about-me-text > p {
     padding: 5px;
