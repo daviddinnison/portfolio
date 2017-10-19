@@ -50,6 +50,10 @@ header > h2 {
   font-size: 60px;
 }
 
+.italic {
+  font-style: italic;
+}
+
 .orange {
   color: #ff5200;
   opacity: 0.9;
@@ -155,29 +159,41 @@ header > h2 {
   padding: 40px;
 }
 
-.project .project-screenshots {
-  width: 50%;
-  float: left;
-}
 
 
-.project-screenshots {
-  display: block;
-  position: relative;
-
-}
 
 .project-description a {
   padding: 10px;
 }
 
 /*PROJECT IMAGES  */
-.project-screenshots {
-  height: 400px;
-  width: 683px;
+/* .project-screenshots {
+
+  display: block;
+  position: relative;
   background-repeat: no-repeat;
   background-size: contain;
-}
+  float: left;
+  width: 50%;
+  max-height: 50%;
+  padding-top: 66.64%;
+} */
+.project-screenshots {
+  
+    display: block;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: contain;
+    float: left;
+    width: 50%;
+    padding-top: 66.64%;
+
+    /* background-size: auto 100%; */
+
+
+  }
+
+
 
 .project-screenshots > a {
   background-color: transparent;
@@ -261,7 +277,8 @@ header > h2 {
 
 /*CONTACT  FOOTER*/
 .contact {
-   padding: 35px; 
+   padding: 35px;
+   padding-left: 60px; 
 }
 
 .contact > h3 {
@@ -293,7 +310,8 @@ header > h2 {
 
 
 /* MEDIA QUERIES */
-@media screen and (max-width: 920px) {
+
+@media screen and (max-width: 776px) {
   header {
     padding: 60px 5px;
     padding-top: 10px;
@@ -313,12 +331,9 @@ header > h2 {
   .about-me-text > p {
     padding: 5px;
   }
-  .project .project-screenshots, .project-description, .about-me-text, .headshot-container {
+  .project, .project-screenshots, .project-description, .about-me-text, .headshot-container {
       width: 100%;
       float: none;
-  }
-  .project-screenshots {
-    max-height: 230px;
   }
   .project-description > div {
     padding: 10px;
@@ -327,39 +342,18 @@ header > h2 {
     padding: 0px;
   }
 }
-
-@media screen and (max-width: 1236px) {
-  header {
-    padding: 60px 5px;
-    padding-top: 10px;
+@media screen and (min-width: 777px)  and (max-width: 1300px){
+  .project, .about-me-text, .headshot-container {
+    width: 100%;
+    float: none;
   }
-  .main-nav ul {
-    font-size: 15px;
-    padding-left: 5px;
-  }
-  .main-nav li {
-    margin: 0px;
-  }
-
-  .about {
-    padding-top: 20px;
-    padding-bottom: 0px;
-  }
-  .about-me-text > p {
-    padding: 5px;
-  }
-  .project .project-screenshots, .project-description, .about-me-text, .headshot-container {
-      width: 100%;
-      float: none;
-  }
-  .project-screenshots {
+  .project-screenshots, .project-description {
+    width: 80%;
     margin: 0px auto;
-    max-width: 700px;
+    float: none;
+    
   }
-  .project-description > div {
-    padding: 10px;
-  }
-  .project-screenshots img {
-    padding: 0px;
-  }
+  /* .project-description {
+    width: 70%;
+  } */
 }
