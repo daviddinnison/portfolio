@@ -167,30 +167,16 @@ header > h2 {
 }
 
 /*PROJECT IMAGES  */
-/* .project-screenshots {
 
-  display: block;
-  position: relative;
-  background-repeat: no-repeat;
-  background-size: contain;
-  float: left;
-  width: 50%;
-  max-height: 50%;
-  padding-top: 66.64%;
-} */
 .project-screenshots {
+  float: left;
   
-    display: block;
-    position: relative;
     background-repeat: no-repeat;
     background-size: contain;
-    float: left;
-    width: 50%;
     padding-top: 66.64%;
-
-    /* background-size: auto 100%; */
-
-
+    
+    
+    width: 50%;
   }
 
 
@@ -343,17 +329,9 @@ header > h2 {
   }
 }
 @media screen and (min-width: 777px)  and (max-width: 1300px){
-  .project, .about-me-text, .headshot-container {
+  /* .project, .about-me-text, .headshot-container { */
+    .project, .about-me-text, .headshot-container, .project-screenshots, .project-description {
     width: 100%;
     float: none;
   }
-  .project-screenshots, .project-description {
-    width: 80%;
-    margin: 0px auto;
-    float: none;
-    
-  }
-  /* .project-description {
-    width: 70%;
-  } */
 }
