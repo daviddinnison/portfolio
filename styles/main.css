@@ -310,7 +310,6 @@ header > h2 {
   .main-nav li {
     margin: 0px;
   }
-
   .about {
     padding-top: 20px;
     padding-bottom: 0px;
@@ -318,27 +317,41 @@ header > h2 {
   .about-me-text > p {
     padding: 5px;
   }
-  .project, .project-screenshots, .project-description, .about-me-text, .headshot-container {
-      width: 100%;
-      float: none;
+  .project {
+    max-height: 1000px;
   }
-  .project-description > div {
-    padding: 10px;
+  .project, .project-description, .about-me-text, .headshot-container {
+    width: 100%;
+    float: none;
   }
-  .project-screenshots img {
-    padding: 0px;
+  .headshot-container {
+    margin: 0px auto;
+    width: 90%;
+  }
+  .project-description {
+    /* overflow: hidden; */
+  }
+  .project-screenshots {
+    float: none;
+    margin: 0px auto;
+    width: 90%
   }
   .contact {
     padding: 40px 5px;
   }
 }
 @media screen and (min-width: 777px)  and (max-width: 1300px){
-  /* .project, .about-me-text, .headshot-container { */
+ 
     .project, .about-me-text, .headshot-container, .project-screenshots, .project-description {
     width: 100%;
     float: none;
   }
-  .project {
-    max-height: 1100px;
+  .headshot-container {
+    margin: 0px auto;
+    width: 50%;
   }
+  .project {
+    max-height: 1500px;
+  }
+  
 }
