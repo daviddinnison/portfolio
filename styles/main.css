@@ -216,7 +216,10 @@ header > h2 {
   text-transform: uppercase;
   white-space: nowrap;
 }
+.project > h3 {
+  display: none;
 
+}
 .project-stack {
   margin-top: 0px;
   margin-bottom: 12px;
@@ -342,10 +345,41 @@ header > h2 {
 }
 @media screen and (min-width: 777px)  and (max-width: 1300px){
  
-    .project, .about-me-text, .headshot-container, .project-screenshots, .project-description {
+    .project, .about-me-text, .headshot-container, {
     width: 100%;
     float: none;
+    display: block;
   }
+  .project {
+    max-height: 200px;
+  }
+  .project > h3 {
+    display: inline-block;
+    text-align: center;
+    margin: 0px auto;
+  }
+  .project-description, .project-screenshots {
+    float: none;
+    display: block;
+    max-width: 800px;
+    margin: 0px auto;
+  }
+
+
+  
+  .project-description {
+    width: 700px;
+  }
+  .project-description > h3 {
+    display: none;
+  }
+  .project-screenshots {
+    margin-bottom: 20px;
+    padding: 0px;
+    height: 413px;
+    width: 700px;
+  }
+
   .headshot-container {
     margin: 0px auto;
     width: 50%;
