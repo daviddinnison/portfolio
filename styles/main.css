@@ -300,11 +300,74 @@ header > h2 {
 
 
 /* MEDIA QUERIES */
-
-@media screen and (max-width: 776px) {
+@media screen and (max-width: 375px) {
   header {
     padding: 60px 5px;
     padding-top: 10px;
+  }
+  .main-nav ul {
+    font-size: 10px;
+    padding: 5px;
+  }
+  .main-nav li {
+    margin-right: 5px;
+  }
+  .main-nav a {
+    padding: 5px;
+  }
+  .headshot-container {
+    margin: 0px auto;
+    width: 90%;
+  }
+  .about {
+    padding-top: 20px;
+    padding-bottom: 0px;
+  }
+  .about-me-text > p {
+    padding: 10px;
+  }
+  .project {
+    max-height: 1000px;
+    margin-bottom: 40px;
+  }
+  .project, .about-me-text, .headshot-container {
+    width: 100%;
+    float: none;
+    display: block;
+  }
+  .headshot-container {
+    margin: 0px auto;
+  }
+  .headshot-container img {
+    max-width: 45%;
+  }
+  .project-description, .project-screenshots {
+    float: none;
+    display: block;
+    max-width: 90%;
+    margin: 0px auto;
+  }
+
+  .project-description {
+    width: initial;
+  }
+  .project-screenshots {
+    margin-bottom: 20px;
+    padding: 90px;
+  }
+  .contact {
+    padding: 40px 5px;
+  }
+}
+@media screen and (min-width: 375px) and (max-width: 776px) {
+  header {
+    padding: 60px 5px;
+    padding-top: 10px;
+  }
+  .project, .about-me-text, .headshot-container {
+    width: 100%;
+    float: none;
+    display: block;
   }
   .main-nav ul {
     font-size: 15px;
@@ -313,31 +376,37 @@ header > h2 {
   .main-nav li {
     margin: 0px;
   }
+  .headshot-container {
+    margin: 0px auto;
+    width: 90%;
+  }
   .about {
     padding-top: 20px;
     padding-bottom: 0px;
   }
   .about-me-text > p {
-    padding: 5px;
+    padding: 10px;
   }
   .project {
     max-height: 1000px;
+    margin-bottom: 40px;
   }
-  .project, .project-description, .about-me-text, .headshot-container {
-    width: 100%;
+  
+  .project-description, .project-screenshots {
     float: none;
-  }
-  .headshot-container {
+    display: block;
+    max-width: 90%;
     margin: 0px auto;
-    width: 90%;
   }
+
   .project-description {
-    /* overflow: hidden; */
+    width: 400px;
   }
   .project-screenshots {
-    float: none;
-    margin: 0px auto;
-    width: 90%
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 117px;
+    width: 300px;
   }
   .contact {
     padding: 40px 5px;
@@ -350,8 +419,14 @@ header > h2 {
     float: none;
     display: block;
   }
+  .headshot-container {
+    float: none;
+    display: block;
+    width: 50%;
+  }
   .project {
     max-height: 200px;
+    margin-bottom: 60px;
   }
   .project > h3 {
     display: inline-block;
@@ -370,9 +445,7 @@ header > h2 {
   .project-description {
     width: 700px;
   }
-  .project-description > h3 {
-    display: none;
-  }
+
   .project-screenshots {
     margin-bottom: 20px;
     padding: 0px;
