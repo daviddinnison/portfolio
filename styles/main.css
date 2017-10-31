@@ -154,12 +154,13 @@ header > h2 {
   width: 90%;
 }
 .project-description {
-  width: 50%;
+  width: 45%;
   float: right;
+  padding-left: 15px;
 }
 
-.project-description > div {
-  padding: 40px;
+.project-description p, h3 {
+  /* padding-left: 15px; */
 }
 
 
@@ -404,7 +405,7 @@ header > h2 {
   }
 
   .project-description {
-    width: 400px;
+    width: 80%;
   }
   .project-screenshots {
     margin-bottom: 20px;
@@ -420,6 +421,7 @@ header > h2 {
  
     .project, .about-me-text, .headshot-container {
     width: 100%;
+
     float: none;
     display: block;
   }
@@ -453,8 +455,8 @@ header > h2 {
   .project-screenshots {
     margin-bottom: 20px;
     padding: 0px;
-    height: 413px;
-    width: 700px;
+    height: 354px;
+    width: 600px;
   }
 
   .headshot-container {
