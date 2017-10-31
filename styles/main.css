@@ -102,8 +102,8 @@ header > h2 {
 .about {
   background-color: #FFFFFC;
   margin-bottom: 40px;
-  padding-bottom: 150px; 
-  padding-top: 90px;
+  padding-bottom: 50px; 
+  padding-top: 60px;
 }
 
 .about-nav-scroll {
@@ -159,6 +159,12 @@ header > h2 {
   padding-left: 15px;
 }
 
+.project-mobile {
+
+  max-height: 600px;
+
+}
+
 .project-description p, h3 {
   /* padding-left: 15px; */
 }
@@ -177,8 +183,6 @@ header > h2 {
     background-repeat: no-repeat;
     background-size: contain;
     padding-top: 66.64%;
-    
-    
     width: 50%;
   }
 
@@ -189,12 +193,13 @@ header > h2 {
 }
 
 
+
 .learn-croatian {
   background-image: url('../images/learn-croatian.PNG');
 }
 
-.ace-pomodoro {
-  background-image: url('../images/ace-pomodoro.PNG');
+.weatherboss {
+  background-image: url('../images/weatherboss.PNG');
 }
 
 .epiquotes {
