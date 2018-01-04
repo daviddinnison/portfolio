@@ -7,8 +7,8 @@ body {
     margin: 0px;
 }
 
-
 /* STYLES */
+
 .primary-style {
     background-color: #08222a;
     color: #F5F5F2;
@@ -17,105 +17,107 @@ body {
 .secondary-style {
     background-color: #314a52;
     color: white;
-  }
-  
+}
 
 a {
     color: #ff5200;
-    text-decoration: none; 
+    text-decoration: none;
 }
 
 /*HEADER  */
+
 header {
     padding: 60px;
     padding-bottom: 20px;
     font-family: 'Bitter', sans-serif;
     padding-top: 10px;
-  }
-  
-  header > h1 {
+}
+
+header>h1 {
     font-size: 55px;
     max-width: 120px;
     line-height: 90%;
-  }
-  
-  header > h2 {
+}
+
+header>h2 {
     font-size: 25px;
-  }
+}
 
 header h2 {
     color: #ff5200;
     opacity: 0.9;
 }
 
-
 /* MAIN NAV */
+
 .main-nav {
     padding: 0px;
     z-index: 150;
-  }
-  .main-nav a {
-    color: white; 
+}
+
+.main-nav a {
+    color: white;
     background-color: #08222a;
     font-size: 18px;
     padding: 18px;
     transition: background-color .25s;
-  }
-  
-  .main-nav a:hover {
+}
+
+.main-nav a:hover {
     background-color: #5C7274;
-  } 
-  
-  .main-nav ul {
+}
+
+.main-nav ul {
     padding: 15px;
     padding-left: 60px;
     margin: 0px;
-  }
-  
-  .main-nav li {
+}
+
+.main-nav li {
     display: inline-block;
     font-size: 20px;
-  }
-  
-  /* nav scroll effect */
-  .main-nav-scrolled {
+}
+
+/* nav scroll effect */
+
+.main-nav-scrolled {
     position: fixed;
     width: 100%;
     top: 0;
-  }
-  
-  /*ABOUT ME  */
+}
+
+/*ABOUT ME  */
+
 .about {
     background-color: #FFFFFC;
     margin-bottom: 40px;
-    padding-bottom: 50px; 
+    padding-bottom: 50px;
     padding-top: 60px;
-  }
+}
 
-
-  .about-nav-scroll {
+.about-nav-scroll {
     margin-top: 60px;
-  }
-  
-  .about p {
+}
+
+.about p {
     padding: 50px;
-  }
-  
-  
-  /*WORK  */
-  .work {
-    margin-bottom: 140px; 
+}
+
+/*WORK  */
+
+.work {
+    margin-bottom: 140px;
     padding-top: 20px;
-  }
-  
+}
 
 /* PROJECT */
+
 .project {
     margin-bottom: 80px;
 }
 
-
 /* PROJECT HEADINGS */
+
 .project h3 {
     font-family: 'Fjalla One', sans-serif;
     font-size: 30px;
@@ -123,13 +125,13 @@ header h2 {
     margin-bottom: 0px;
     text-transform: uppercase;
 }
-  
+
 .project a {
     text-transform: uppercase;
     white-space: nowrap;
 }
 
-.project > h3 {
+.project>h3 {
     display: none;
 }
 
@@ -138,29 +140,29 @@ header h2 {
     margin-bottom: 12px;
     padding: 0px;
 }
-  
+
 .project-stack li {
-    border: 1px solid #E1E1DE; 
-    box-shadow:0px 1px 1px #E1E1DE;
+    border: 1px solid #E1E1DE;
+    box-shadow: 0px 1px 1px #E1E1DE;
     color: #52686a;
     display: inline-block;
     margin-bottom: 4px;
     padding: 0px 10px;
 }
-  
+
 .project:after {
     clear: both;
     content: '';
     display: block;
 }
-  
 
 /* PROJECT BUTTONS */
+
 .live-demo, .source-code {
     margin-bottom: 13px;
     transition: background-color .25s;
 }
-  
+
 .project-description a {
     padding: 10px;
 }
@@ -169,51 +171,50 @@ header h2 {
     background-color: #ff5200;
     color: #F5F5F2;
 }
-  
+
 .live-demo:hover {
     background-color: #AF0200;
 }
-  
+
 .source-code {
     background-color: #5C7274;
     color: #f5f5f2;
 }
-  
+
 .source-code:hover {
     background-color: #2A4042;
 }
 
-
 /* CONTACT */
+
 .contact {
     padding: 35px;
-    padding-left: 60px; 
+    padding-left: 60px;
 }
- 
-.contact > h3 {
-   margin: 0px;
+
+.contact>h3 {
+    margin: 0px;
 }
- 
+
 .contact ul {
-   padding: 0px;
-   margin: 0px;
+    padding: 0px;
+    margin: 0px;
 }
- 
+
 .contact li {
-   display: inline-block;
-   padding: 0px 10px;
+    display: inline-block;
+    padding: 0px 10px;
 }
- 
+
 .contact li:first-child {
-   padding-left: 0px;
+    padding-left: 0px;
 }
- 
+
 .contact a, header a {
-   border-bottom: 2px solid transparent;
-   transition: border-bottom .25s;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom .25s;
 }
- 
+
 .contact a:hover, header a:hover {
-   border-bottom: 2px solid #ff5200;
-} 
- 
+    border-bottom: 2px solid #ff5200;
+}
