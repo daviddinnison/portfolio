@@ -1,0 +1,119 @@
+
+
+.text-style {
+  color: #003355;
+}
+
+/*HEADER  */
+header {
+  padding: 60px;
+  padding-bottom: 20px;
+  font-family: 'Bitter', sans-serif;
+  padding-top: 10px;
+}
+
+header > h1 {
+  font-size: 55px;
+  max-width: 120px;
+  line-height: 90%;
+}
+
+header > h2 {
+  font-size: 25px;
+}
+
+.header-accent {
+  font-size: 60px;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.orange {
+  color: #ff5200;
+  opacity: 0.9;
+}
+
+
+/* MAIN NAV */
+.main-nav {
+  padding: 0px;
+  z-index: 150;
+}
+.main-nav a {
+  color: white; 
+  background-color: #08222a;
+  font-size: 18px;
+  padding: 18px;
+  transition: background-color .25s;
+}
+
+.main-nav a:hover {
+  background-color: #5C7274;
+} 
+
+.main-nav ul {
+  padding: 15px;
+  padding-left: 60px;
+  margin: 0px;
+}
+
+.main-nav li {
+  display: inline-block;
+  font-size: 20px;
+}
+
+/* nav scroll effect */
+.main-nav-scrolled {
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*CONTACT  FOOTER*/
+.contact {
+   padding: 35px;
+   padding-left: 60px; 
+}
+
+.contact > h3 {
+  margin: 0px;
+}
+
+.contact ul {
+  padding: 0px;
+  margin: 0px;
+}
+
+.contact li {
+  display: inline-block;
+  padding: 0px 10px;
+}
+
+.contact li:first-child {
+  padding-left: 0px;
+}
+
+ .contact a, header a {
+  border-bottom: 2px solid transparent;
+  transition: border-bottom .25s;
+}
+
+.contact a:hover, header a:hover {
+  border-bottom: 2px solid #ff5200;
+} 
+
