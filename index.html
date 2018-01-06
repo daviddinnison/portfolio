@@ -3,39 +3,40 @@
 
 <head>
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>David Dinnison</title>
     <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Cantarell|Bitter" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="styles/main.css">
 </head>
 
 <body>
-
     <!-- Header -->
     <header class="secondary-style">
         <h1>
-            David 
-            <span class="italic">Dinnison</span>
+            David Dinnison
         </h1>
         <h2>
-            <span class="orange">Full-stack web developer</span>
+            Full-stack web developer
         </h2>
     </header>
+    <!-- Nav -->
     <nav class="main-nav primary-style">
         <ul>
             <a href="#about">
-                <li class="main-nav-link">
+                <li>
                     About
                 </li>
             </a>
             <a href="#work">
-                <li class="main-nav-link">
+                <li>
                     Projects
                 </li>
             </a>
             <a href="#contact">
-                <li class="main-nav-link">
+                <li>
                     Contact
                 </li>
             </a>
@@ -43,40 +44,39 @@
     </nav>
 
 
-
-    <!-- About me -->
-    <section class="about text-style" id="about">
-        <div class="about-me-text">
-            <p>
-                Hello, I'm David, a full-stack web developer from the Washington DC area. I use React and React Native to create
-                applications that are easy to use and attractive on any device. I love to tinker and make things better.
-                When I'm not behind the keyboard I spend time watching soccer, riding my bike, exploring the city, taking
-                pictures, rollerblading, and daydreaming about travel.
-            </p>
-        </div>
-        <div class="headshot-container">
-            <img src="images/david1.jpg" alt="David in Sydney, Australia">
-            <img src="images/david2.jpg" alt="David in Los Angeles">
+    <!-- About -->
+    <section class="container-fluid about" id="about">
+        <div class="row">
+            <div class="col-sm-9">
+                <p>
+                    Hello, I'm David, a full-stack web developer from the Washington DC area. I use React and React Native to create applications
+                    that are easy to use and attractive on any device. I love to tinker and make things better. When I'm
+                    not behind the keyboard I spend time watching soccer, riding my bike, exploring the city, taking pictures,
+                    rollerblading, and daydreaming about travel.
+                </p>
+            </div>
+            <div class="col-sm-3">
+                <img src="images/david.jpg" alt="David" class="img-responsive center-block">
+            </div>
         </div>
     </section>
 
-    <!-- work section -->
+    <!-- Projects  -->
     <main>
-        <section class="work text-style" id="work">
+        <section id="work" class="container work">
 
             <!-- Learn Croatian -->
-            <section class="project text-style">
-
-               
-                    <div class="project-screenshots learn-croatian" title="Learn Croatian">
-
-
+            <section class="project row">
+                <div class="app-screenshot col-sm-6">
+                    <div class="thumbnail">
+                        <img src="images/learn-croatian.PNG" alt="Learn Croatian">
                     </div>
-                <div class="project-description">
+                </div>
+                <div class="project-description col-sm-6">
 
                     <h3>Learn Croatian</h3>
                     <p>
-                        A spaced repetition app for learning basic Croatian. 
+                        A spaced repetition app for learning basic Croatian.
                     </p>
 
                     <ul class="project-stack">
@@ -94,16 +94,17 @@
             </section>
 
             <!-- WeatherBoss -->
-            <section class="project project-mobile text-style">
-                
-                    <div class="project-screenshots weatherboss" title="WeatherBoss">
+            <section class="project row">
+
+                <div class="app-screenshot col-sm-6">
+                    <div class="thumbnail">
+                        <img src="images/weatherboss.PNG" alt="WeatherBoss" class="mobile-img">
                     </div>
-              
-                <div class="project-description">
+                </div>
+                <div class="project-description col-sm-6">
                     <h3>WeatherBoss</h3>
                     <p>
-                        WeatherBoss is a React Native app that allows users to check the forecast anywhere in the US
-                        using an iOs or Andorid device.
+                        WeatherBoss is a React Native app that allows users to check the forecast anywhere in the US using an iOs or Andorid device.
                     </p>
 
                     <ul class="project-stack">
@@ -111,21 +112,22 @@
                         <li>Redux</li>
                         <li>WeatherUndergound API</li>
                     </ul>
+
                     <a href="https://expo.io/@daviddinnison/weatherboss" target="_blank" class="live-demo">Demo</a>
                     <a href="https://github.com/daviddinnison/weatherboss" target="_blank" class="source-code">Code</a>
                 </div>
             </section>
 
             <!-- EpiQuotes -->
-            <section class="project text-style">
-              
-                    <div class="project-screenshots epiquotes" title="EpiQuotes">
+            <section class="project row">
 
-
-
+                <div class="app-screenshot col-sm-6">
+                    <div class="thumbnail">
+                        <img src="images/epiquotes.PNG" alt="EpiQuotes">
                     </div>
-              
-                <div class="project-description">
+                </div>
+
+                <div class="project-description col-sm-6">
                     <h3>EpiQuotes</h3>
                     <p>
                         When a user needs an inspirational quote to put into a company email, they can use this site. When a user hears a quote they
@@ -141,26 +143,25 @@
                         <li>Chai</li>
                         <li>Node</li>
                     </ul>
+
                     <a href="https://epiquotes.herokuapp.com/" target="_blank" class="live-demo">Demo</a>
                     <a href="https://github.com/lewi-g/EpiQuotes" target="_blank" class="source-code">Code</a>
                 </div>
             </section>
 
             <!-- Find My Hospital -->
-            <section class="project text-style">
-                
-                    <div class="project-screenshots find-my-hospital" title="Find My Hospital">
-
-
-
+            <section class="project row">
+                <div class="app-screenshot col-sm-6">
+                    <div class="thumbnail">
+                        <img src="images/find-my-hospital.PNG" alt="Find My Hospital">
                     </div>
-               
-                <div class="project-description">
+                </div>
+
+                <div class="project-description col-sm-6">
                     <h3>Find My Hospital</h3>
                     <p>
-                        Find My Hospital allows users to create an map of nearby hospitals using a zip code. Results are displayed using Google Maps
-                        and markers containg useful information, such as name, address, and ratings. A text-based list of
-                        each result at the bottom of the map displays additional information.
+                        Find My Hospital allows users to create an map of nearby hospitals. Results are displayed with markers containg useful information,
+                        such as name, address, and ratings.
                     </p>
 
                     <ul class="project-stack">
@@ -168,6 +169,7 @@
                         <li>Google Maps API</li>
                         <li>Google Places API</li>
                     </ul>
+
                     <a href="https://daviddinnison.github.io/gapi-hospital/" target="_blank" class="live-demo">Demo</a>
                     <a href="https://github.com/daviddinnison/gapi-hospital" target="_blank" class="source-code">Code</a>
                 </div>
@@ -180,13 +182,13 @@
         <h3>Contact me</h3>
         <nav class="contact-nav">
             <ul>
-                <li class="contact-nav-link">
+                <li>
                     <a href="mailto:david.g.dinnison@gmail.com">Email</a>
                 </li>
-                <li class="contact-nav-link">
+                <li>
                     <a href="https://github.com/daviddinnison" target="_blank">Github</a>
                 </li>
-                <li class="contact-nav-link">
+                <li>
                     <a href="https://www.linkedin.com/in/david-dinnison/" target="_blank">Linkedin</a>
                 </li>
             </ul>
@@ -195,6 +197,7 @@
 
     <!-- Scripts -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="scripts/app.js"></script>
 
 </body>

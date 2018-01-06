@@ -9,11 +9,13 @@ function navIdScrolling() {
 //nav bar fixed on scrolling
 function fixedNavScrolling() {
     const mainNav = $(".main-nav");
+
     const scrolledNav = "main-nav-scrolled";
+
     const headerHeight = $('header').outerHeight();
     const aboutNavScroll = "about-nav-scroll";
     const about = $('.about');
-    
+
     $(window).scroll(function () {
         if ($(this).scrollTop() > headerHeight) {
             mainNav.addClass(scrolledNav);
@@ -25,7 +27,8 @@ function fixedNavScrolling() {
     });
 }
 
+
 $(document).ready(function () {
     navIdScrolling();
     fixedNavScrolling();
-});
+}); 
