@@ -41,9 +41,6 @@ header>h1 {
 
 header>h2 {
     font-size: 25px;
-}
-
-header h2 {
     color: #ff5200;
     opacity: 0.9;
 }
@@ -86,6 +83,10 @@ header h2 {
     top: 0;
 }
 
+.about-top-buffer {
+    margin-top: 60.4px;
+}
+
 /*ABOUT ME  */
 
 .about {
@@ -93,10 +94,6 @@ header h2 {
     margin-bottom: 40px;
     padding-bottom: 50px;
     padding-top: 60px;
-
-    /* prevents additional whitespace on right side due to Bootstrap row class */
-    padding-right: 0px;
-    margin-right: 0px;
 }
 
 .about-nav-scroll {
@@ -160,6 +157,10 @@ header h2 {
     display: block;
 }
 
+.mobile-img {
+    max-height: 321.55px;
+}
+
 /* PROJECT BUTTONS */
 
 .live-demo, .source-code {
@@ -178,6 +179,8 @@ header h2 {
 
 .live-demo:hover {
     background-color: #AF0200;
+    color: #F5F5F2;
+    text-decoration: none;
 }
 
 .source-code {
@@ -187,12 +190,14 @@ header h2 {
 
 .source-code:hover {
     background-color: #2A4042;
+    color: #f5f5f2;
+    text-decoration: none;
 }
 
 /* CONTACT */
 
 .contact {
-    padding: 35px;
+    padding: 45px;
     padding-left: 45px;
 }
 
@@ -214,11 +219,28 @@ header h2 {
     padding-left: 0px;
 }
 
-.contact a, header a {
+.contact nav a {
     border-bottom: 2px solid transparent;
     transition: border-bottom .25s;
 }
 
-.contact a:hover, header a:hover {
-    border-bottom: 2px solid #ff5200;
+.contact a:hover {
+    color: #ff5200;
+}
+
+/* MEDIA QUERIES */
+@media only screen and (max-width: 768px) {
+    header {
+        padding: 23px;
+    }
+    .main-nav ul {
+        padding-left: 5px;
+    }
+    .about p {
+        padding: 10px;
+    }
+
+    .contact {
+        padding-left: 20px;
+    }
 }
