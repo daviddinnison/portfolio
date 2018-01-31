@@ -97,9 +97,13 @@ header {
 /* PROJECT */
 
 .project {
-    padding-left: 45px;
-    padding-right: 45px;
+  padding-left: 45px;
+  padding-right: 45px;
   margin-bottom: 80px;
+}
+
+.project:last-child {
+  margin-bottom: 20px;
 }
 
 /* PROJECT HEADINGS */
@@ -146,8 +150,8 @@ header {
 }
 
 .app-screenshot img {
-    display: block;
-    margin: 0px auto;
+  display: block;
+  margin: 0px auto;
 }
 
 /* PROJECT BUTTONS */
@@ -179,11 +183,10 @@ header {
 
 .contact {
   padding: 45px;
-  /* text-align: right; */
 }
 
 .contact > h3 {
-    font-family: "Fjalla One", sans-serif;
+  font-family: "Fjalla One", sans-serif;
   margin: 0px;
 }
 
@@ -193,10 +196,21 @@ header {
 }
 
 .contact li {
+  padding: 5px;
   display: inline-block;
-  margin-right: 5px;
+}
+
+.contact a:hover {
+  padding-bottom: 10px;
+  border-bottom: 1px solid black;
 }
 
 .contact a {
+  font-size: 15px;
   text-decoration: none;
+}
+
+.contact img {
+  margin-right: 5px;
+  width: 21px;
 }
