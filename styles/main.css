@@ -1,246 +1,202 @@
 body {
-    background-color: #F5F5F2;
-    font-family: 'Cantarell', sans-serif;
-    font-size: 20px;
-    letter-spacing: 0.5px;
-    line-height: 150%;
-    margin: 0px;
+  background-color: #f2f2f2;
+  color: #3a3a3a;
+  font-family: "Cantarell", sans-serif;
+  font-size: 20px;
+  margin: 0px;
 }
 
 /* STYLES */
 
-.primary-style {
-    background-color: #08222a;
-    color: #F5F5F2;
-}
-
-.secondary-style {
-    background-color: #314a52;
-    color: white;
-}
-
 a {
-    color: #ff5200;
-    text-decoration: none;
-}
-
-/*HEADER  */
-
-header {
-    padding: 60px;
-    padding-bottom: 20px;
-    font-family: 'Bitter', sans-serif;
-    padding-top: 10px;
-}
-
-header>h1 {
-    font-size: 55px;
-    max-width: 120px;
-    line-height: 90%;
-}
-
-header>h2 {
-    font-size: 25px;
-    color: #ff5200;
-    opacity: 0.9;
+  color: #3a3a3a;
+  text-decoration: none;
 }
 
 /* MAIN NAV */
 
 .main-nav {
-    padding: 0px;
-    z-index: 150;
+  padding: 0px;
 }
 
 .main-nav a {
-    color: white;
-    background-color: #08222a;
-    font-size: 18px;
-    padding: 18px;
-    transition: background-color .25s;
-}
-
-.main-nav a:hover {
-    background-color: #5C7274;
+  color: #3a3a3a;
+  font-size: 18px;
+  padding: 18px;
 }
 
 .main-nav ul {
-    padding: 15px;
-    padding-left: 45px;
-    margin: 0px;
+  padding: 15px;
+  margin: 0px;
+  text-align: right;
 }
 
 .main-nav li {
-    display: inline-block;
-    font-size: 20px;
+  display: inline-block;
+  font-size: 20px;
 }
 
 /* nav scroll effect */
 
-.main-nav-scrolled {
-    position: fixed;
-    width: 100%;
-    top: 0;
+.main-title-scrolled {
+  position: fixed;
+  width: 100%;
+  top: 0;
 }
 
 .about-top-buffer {
-    margin-top: 60.4px;
+  margin-top: 60.4px;
+}
+/*HEADER  */
+
+header {
+  background: url("../images/architecture-839362_1920.jpg") no-repeat center;
+  /* background: url("../images/sunset-2976428.png") no-repeat; */
+  font-family: "Fjalla One", sans-serif;
+  padding: 60px;
+  height: 600px;
+  padding-bottom: 20px;
+  padding-top: 10px;
+  text-align: right;
+}
+
+.titles {
+  /* background-color: white; */
+  /* background: rgba(255, 255, 255, 0.5); */
+  padding: 20px;
+}
+
+.titles > h1 {
+  font-size: 70px;
+  line-height: 90%;
+}
+
+.titles > h2 {
+  font-size: 40px;
+  opacity: 0.9;
 }
 
 /*ABOUT ME  */
 
 .about {
-    background-color: #FFFFFC;
-    margin-bottom: 40px;
-    padding-bottom: 50px;
-    padding-top: 60px;
+  margin-bottom: 40px;
+  padding-bottom: 50px;
+  padding-top: 40px;
 }
 
 .about-nav-scroll {
-    margin-top: 60px;
+  margin-top: 60px;
 }
 
-.about p {
-    padding: 50px;
-}
-
-/*WORK  */
+/*WORK */
 
 .work {
-    margin-bottom: 20px;
-    padding-top: 20px;
+  padding-top: 20px;
 }
 
 /* PROJECT */
 
 .project {
-    margin-bottom: 80px;
+    padding-left: 45px;
+    padding-right: 45px;
+  margin-bottom: 80px;
 }
 
 /* PROJECT HEADINGS */
 
 .project h3 {
-    font-family: 'Fjalla One', sans-serif;
-    font-size: 30px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    text-transform: uppercase;
+  font-family: "Fjalla One", sans-serif;
+  font-size: 30px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-transform: uppercase;
 }
 
 .project a {
-    text-transform: uppercase;
-    white-space: nowrap;
+  text-transform: uppercase;
+  white-space: nowrap;
 }
 
-.project>h3 {
-    display: none;
+.project > h3 {
+  display: none;
 }
 
 .project-stack {
-    margin-top: 0px;
-    margin-bottom: 12px;
-    padding: 0px;
+  margin-top: 0px;
+  margin-bottom: 12px;
+  padding: 0px;
 }
 
 .project-stack li {
-    border: 1px solid #E1E1DE;
-    box-shadow: 0px 1px 1px #E1E1DE;
-    color: #52686a;
-    display: inline-block;
-    margin-bottom: 4px;
-    padding: 0px 10px;
+  border: 1px solid #e1e1de;
+  box-shadow: 0px 1px 1px #e1e1de;
+  display: inline-block;
+  margin-bottom: 4px;
+  padding: 0px 10px;
 }
 
 .project:after {
-    clear: both;
-    content: '';
-    display: block;
+  clear: both;
+  content: "";
+  display: block;
 }
 
 .mobile-img {
-    max-height: 321.55px;
+  max-height: 321.55px;
+}
+
+.app-screenshot img {
+    display: block;
+    margin: 0px auto;
 }
 
 /* PROJECT BUTTONS */
 
-.live-demo, .source-code {
-    margin-bottom: 13px;
-    transition: background-color .25s;
+.live-demo,
+.source-code {
+  margin-bottom: 13px;
+  transition: background-color 0.25s;
 }
 
 .project-description a {
-    padding: 10px;
+  padding: 10px;
 }
 
-.live-demo {
-    background-color: #ff5200;
-    color: #F5F5F2;
-}
-
-.live-demo:hover {
-    background-color: #AF0200;
-    color: #F5F5F2;
-    text-decoration: none;
-}
-
+.live-demo,
 .source-code {
-    background-color: #5C7274;
-    color: #f5f5f2;
+  background-color: #626262;
+  color: #f5f5f2;
 }
 
+.live-demo:hover,
 .source-code:hover {
-    background-color: #2A4042;
-    color: #f5f5f2;
-    text-decoration: none;
+  background-color: #4e4e4e;
+  color: #fff;
+  text-decoration: none;
 }
 
 /* CONTACT */
 
 .contact {
-    padding: 45px;
-    padding-left: 45px;
+  padding: 45px;
+  /* text-align: right; */
 }
 
-.contact>h3 {
-    margin: 0px;
+.contact > h3 {
+    font-family: "Fjalla One", sans-serif;
+  margin: 0px;
 }
 
 .contact ul {
-    padding: 0px;
-    margin: 0px;
+  padding: 0px;
+  margin: 0px;
 }
 
 .contact li {
-    display: inline-block;
-    padding: 0px 10px;
+  display: inline-block;
+  margin-right: 5px;
 }
 
-.contact li:first-child {
-    padding-left: 0px;
-}
-
-.contact nav a {
-    border-bottom: 2px solid transparent;
-    transition: border-bottom .25s;
-}
-
-.contact a:hover {
-    color: #ff5200;
-}
-
-/* MEDIA QUERIES */
-@media only screen and (max-width: 768px) {
-    header {
-        padding: 23px;
-    }
-    .main-nav ul {
-        padding-left: 5px;
-    }
-    .about p {
-        padding: 10px;
-    }
-
-    .contact {
-        padding-left: 20px;
-    }
+.contact a {
+  text-decoration: none;
 }

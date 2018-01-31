@@ -8,71 +8,69 @@
     <title>David Dinnison</title>
     <link rel="shortcut icon" href="images/favicon.ico">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Cantarell|Bitter" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Cantarell" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="styles/main.css">
 </head>
 
 <body>
     <!-- Header -->
-    <header class="secondary-style">
-        <h1>
-            David Dinnison
-        </h1>
-        <h2>
-            Full-stack web developer
-        </h2>
+    <header>
+        <!-- Nav -->
+        <nav class="main-nav">
+            <ul>
+                <a href="#about">
+                    <li>
+                        About
+                    </li>
+                </a>
+                <a href="#work">
+                    <li>
+                        Projects
+                    </li>
+                </a>
+                <a href="#contact">
+                    <li>
+                        Contact
+                    </li>
+                </a>
+            </ul>
+        </nav>
+        <div class="titles">
+
+            <h1>
+                David Dinnison
+            </h1>
+            <h2>
+                Full-stack web developer
+            </h2>
+        </div>
     </header>
-    <!-- Nav -->
-    <nav class="main-nav primary-style">
-        <ul>
-            <a href="#about">
-                <li>
-                    About
-                </li>
-            </a>
-            <a href="#work">
-                <li>
-                    Projects
-                </li>
-            </a>
-            <a href="#contact">
-                <li>
-                    Contact
-                </li>
-            </a>
-        </ul>
-    </nav>
 
 
     <!-- About -->
-    <section class="container-fluid about" id="about">
+    <section class="about container" id="about">
         <div class="row">
-            <div class="col-sm-9">
-                <p>
-                    Hello, I'm David, a full-stack web developer from the Washington DC area. I use React and React Native to create applications
-                    that are easy to use and attractive on any device. I love to tinker and make things better. When I'm
-                    not behind the keyboard I spend time watching soccer, riding my bike, exploring the city, taking pictures,
-                    rollerblading, and daydreaming about travel.
-                </p>
-            </div>
             <div class="col-sm-3">
-                <img src="images/david.jpg" alt="David" class="img-responsive center-block">
+                <img src="images/bitmoji.png" alt="David staning by the Sydney Opera House" class="img-responsive center-block">
+            </div>
+            <div class="col-sm-4">
+                <p>Hello, I'm David, a full-stack web developer from the Washington DC area.I use React and React Native to
+                    create applications that are easy to use for any user on any device.</p>
+            </div>
+            <div class="col-sm-4">
+                <p>When I'm not behind the keyboard I spend time watching soccer, riding my bike, exploring the city, taking
+                    pictures, and daydreaming about travel.</p>
             </div>
         </div>
     </section>
 
     <!-- Projects  -->
     <main>
-        <section id="work" class="container work">
+        <section id="work" class="container-fluid work">
 
             <!-- Learn Croatian -->
             <section class="project row">
-                <div class="app-screenshot col-sm-6">
-                    <div class="thumbnail">
-                        <img src="images/learn-croatian.PNG" alt="Learn Croatian">
-                    </div>
-                </div>
-                <div class="project-description col-sm-6">
+                <div class="project-description col-sm-7">
 
                     <h3>Learn Croatian</h3>
                     <p>
@@ -91,17 +89,17 @@
                     <a href="https://github.com/daviddinnison/language-spaced-repetition" target="_blank" class="source-code">Code</a>
 
                 </div>
+                <div class="app-screenshot col-sm-5">
+
+                    <img src="images/learn-croatian.PNG" alt="Learn Croatian" class="img-responsive">
+
+                </div>
             </section>
 
             <!-- WeatherBoss -->
             <section class="project row">
 
-                <div class="app-screenshot col-sm-6">
-                    <div class="thumbnail">
-                        <img src="images/weatherboss.PNG" alt="WeatherBoss" class="mobile-img">
-                    </div>
-                </div>
-                <div class="project-description col-sm-6">
+                <div class="project-description col-sm-7">
                     <h3>WeatherBoss</h3>
                     <p>
                         WeatherBoss is a React Native app that allows users to check the forecast anywhere in the US using an iOs or Andorid device.
@@ -116,18 +114,17 @@
                     <a href="https://expo.io/@daviddinnison/weatherboss" target="_blank" class="live-demo">Demo</a>
                     <a href="https://github.com/daviddinnison/weatherboss" target="_blank" class="source-code">Code</a>
                 </div>
+                <div class="app-screenshot col-sm-5">
+
+                    <img src="images/weatherboss.PNG" alt="WeatherBoss" class="mobile-img" class="img-responsive">
+
+                </div>
             </section>
 
             <!-- EpiQuotes -->
             <section class="project row">
 
-                <div class="app-screenshot col-sm-6">
-                    <div class="thumbnail">
-                        <img src="images/epiquotes.PNG" alt="EpiQuotes">
-                    </div>
-                </div>
-
-                <div class="project-description col-sm-6">
+                <div class="project-description col-sm-7">
                     <h3>EpiQuotes</h3>
                     <p>
                         When a user needs an inspirational quote to put into a company email, they can use this site. When a user hears a quote they
@@ -147,17 +144,17 @@
                     <a href="https://epiquotes.herokuapp.com/" target="_blank" class="live-demo">Demo</a>
                     <a href="https://github.com/lewi-g/EpiQuotes" target="_blank" class="source-code">Code</a>
                 </div>
+                <div class="app-screenshot col-sm-5">
+
+                    <img src="images/epiquotes.PNG" alt="EpiQuotes" class="img-responsive">
+
+                </div>
+
             </section>
 
             <!-- Find My Hospital -->
             <section class="project row">
-                <div class="app-screenshot col-sm-6">
-                    <div class="thumbnail">
-                        <img src="images/find-my-hospital.PNG" alt="Find My Hospital">
-                    </div>
-                </div>
-
-                <div class="project-description col-sm-6">
+                <div class="project-description col-sm-7">
                     <h3>Find My Hospital</h3>
                     <p>
                         Find My Hospital allows users to create an map of nearby hospitals. Results are displayed with markers containg useful information,
@@ -173,12 +170,18 @@
                     <a href="https://daviddinnison.github.io/gapi-hospital/" target="_blank" class="live-demo">Demo</a>
                     <a href="https://github.com/daviddinnison/gapi-hospital" target="_blank" class="source-code">Code</a>
                 </div>
+                <div class="app-screenshot col-sm-5">
+
+                    <img src="images/find-my-hospital.PNG" alt="Find My Hospital" class="img-responsive">
+
+                </div>
+
             </section>
         </section>
     </main>
 
     <!-- Contact -->
-    <section class="contact primary-style" id="contact">
+    <section class="contact" id="contact">
         <h3>Contact me</h3>
         <nav class="contact-nav">
             <ul>
