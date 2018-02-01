@@ -101,7 +101,7 @@ header {
 
 .project {
   /* margin-bottom: 40px; */
-  padding-left: 80px; 
+  padding-left: 80px;
 }
 
 .project-description {
@@ -114,7 +114,7 @@ header {
   display: block;
   margin: 30px auto;
   margin-bottom: 50px;
-  max-width: 60%;
+  max-width: 70%;
 }
 
 /* PROJECT HEADINGS */
@@ -223,11 +223,18 @@ header {
 }
 
 @media (max-width: 992px) {
-  .project-description, .app-screenshot img {
+  .project-description {
     max-width: 80%;
   }
+  .app-screenshot img {
+    max-width: 100%;
+  }
+  .project {
+    display: block;
+    padding: 0px;
+    margin-bottom: 80px;
+  }
 }
-
 
 @media (max-width: 778px) {
   header {
@@ -242,7 +249,7 @@ header {
     font-size: 50px;
     line-height: 90%;
   }
-  
+
   .titles > h2 {
     font-size: 30px;
   }
@@ -251,14 +258,24 @@ header {
   }
   .project {
     display: block;
-    padding: 10px;
+    padding: 0px;
     margin-bottom: 80px;
   }
-  .project-description, .app-screenshot img {
+  .project-description,
+  .app-screenshot img {
+    max-width: 90%;
+  }
+  .project-description {
     margin: 0px auto;
     max-width: 90%;
   }
   .app-screenshot img {
+    max-width: 100%;
+  }
+  .app-screenshot img {
     margin-bottom: 40px;
+  }
+  .contact {
+    padding: 20px;
   }
 }
