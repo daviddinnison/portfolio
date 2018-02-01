@@ -48,29 +48,29 @@
 
 
     <!-- About -->
-    <section class="about container" id="about">
+    <section class="about container-fluid" id="about">
         <div class="row">
+            <div class="col-sm-4">
+                <p>Hello, I'm David, a full-stack web developer from the Washington DC area. Ever since my first Windows 95 I've been fascinated by the internet and seeing it progress. I use React and Node to
+                    create applications that are easy to use and natural for any user on any device.</p>
+            </div>
+            <div class="col-sm-4">
+                <p>When I'm not behind the keyboard I spend time outside, riding bikes, exploring, taking
+                    pictures, daydreaming about travel, finding music, and looking forward to the World Cup.</p>
+            </div>
             <div class="col-sm-3">
-                <img src="images/bitmoji.png" alt="David staning by the Sydney Opera House" class="img-responsive center-block">
-            </div>
-            <div class="col-sm-4">
-                <p>Hello, I'm David, a full-stack web developer from the Washington DC area.I use React and React Native to
-                    create applications that are easy to use for any user on any device.</p>
-            </div>
-            <div class="col-sm-4">
-                <p>When I'm not behind the keyboard I spend time watching soccer, riding my bike, exploring the city, taking
-                    pictures, and daydreaming about travel.</p>
+                <img src="images/bitmoji.png" alt="Bitmoji of David Dinnison waving hello" class="img-responsive">
             </div>
         </div>
     </section>
 
     <!-- Projects  -->
     <main>
-        <section id="work" class="container-fluid work">
+        <section id="work" class="work">
 
             <!-- Learn Croatian -->
-            <section class="project row">
-                <div class="project-description col-sm-7">
+            <!-- <section class="project">
+                <div class="project-description learn-croatian">
 
                     <h3>Learn Croatian</h3>
                     <p>
@@ -89,94 +89,75 @@
                     <a href="https://github.com/daviddinnison/language-spaced-repetition" target="_blank" class="source-code">Code</a>
 
                 </div>
-                <div class="app-screenshot col-sm-5">
+                <div class="app-screenshot">
+                    <img src="./images/learn-croatian.PNG" class="img-responsive" />
+                </div> -->
+            <!-- <div class="app-screenshot col-sm-5">
 
                     <img src="images/learn-croatian.PNG" alt="Learn Croatian" class="img-responsive">
 
-                </div>
-            </section>
+                </div> -->
+            <!-- </section> -->
 
             <!-- WeatherBoss -->
-            <section class="project row">
+            <section class="project">
+                <div class="app-screenshot">
 
-                <div class="project-description col-sm-7">
+                    <img src="images/weatherboss.png" alt="WeatherBoss" class="img-responsive">
+
+                </div>
+
+                <div class="project-description">
                     <h3>WeatherBoss</h3>
                     <p>
-                        WeatherBoss is a React Native app that allows users to check the forecast anywhere in the US using an iOs or Andorid device.
+                        WeatherBoss is a weather app that allows users to check a variety of forecasts from all over the world, such as current conditions,
+                        hourly and extended forecasts, as well as special weather alerts. Users can save their favorite locations,
+                        remove locations, and choose between seeing metric and imperial units.
                     </p>
 
                     <ul class="project-stack">
-                        <li>React Native</li>
+                        <li>React</li>
                         <li>Redux</li>
-                        <li>WeatherUndergound API</li>
+                        <li>Node</li>
+                        <li>Mongoose</li>
+                        <li>User Authentication</li>
+                        <li>Bootstrap</li>
                     </ul>
 
                     <a href="https://expo.io/@daviddinnison/weatherboss" target="_blank" class="live-demo">Demo</a>
                     <a href="https://github.com/daviddinnison/weatherboss" target="_blank" class="source-code">Code</a>
                 </div>
-                <div class="app-screenshot col-sm-5">
-
-                    <img src="images/weatherboss.PNG" alt="WeatherBoss" class="mobile-img" class="img-responsive">
-
-                </div>
             </section>
 
-            <!-- EpiQuotes -->
-            <section class="project row">
 
-                <div class="project-description col-sm-7">
-                    <h3>EpiQuotes</h3>
-                    <p>
-                        When a user needs an inspirational quote to put into a company email, they can use this site. When a user hears a quote they
-                        want to remember, they can add this quote to the database. When a user wants a quick laugh or a quick
-                        distraction they can search for funny quotes. Quotes are displayed by popularity and users can cast
-                        their votes to help the following data getters find the most up-voted quotes.
-                    </p>
+        </section>
 
-                    <ul class="project-stack">
-                        <li>Mongo</li>
-                        <li>Mongoose</li>
-                        <li>Mocha</li>
-                        <li>Chai</li>
-                        <li>Node</li>
-                    </ul>
+        <!-- Find My Hospital -->
+        <!-- <section class="project">
+            <div class="project-description">
+                <h3>Find My Hospital</h3>
+                <p>
+                    Find My Hospital allows users to create an map of nearby hospitals. Results are displayed with markers containg useful information,
+                    such as name, address, and ratings.
+                </p>
 
-                    <a href="https://epiquotes.herokuapp.com/" target="_blank" class="live-demo">Demo</a>
-                    <a href="https://github.com/lewi-g/EpiQuotes" target="_blank" class="source-code">Code</a>
-                </div>
-                <div class="app-screenshot col-sm-5">
+                <ul class="project-stack">
+                    <li>JQuery</li>
+                    <li>Google Maps API</li>
+                    <li>Google Places API</li>
+                </ul>
 
-                    <img src="images/epiquotes.PNG" alt="EpiQuotes" class="img-responsive">
+                <a href="https://daviddinnison.github.io/gapi-hospital/" target="_blank" class="live-demo">Demo</a>
+                <a href="https://github.com/daviddinnison/gapi-hospital" target="_blank" class="source-code">Code</a>
+            </div>
+            <div class="app-screenshot">
+                <img src="./images/find-my-hospital.jpg" class="img-responsive" />
 
-                </div>
 
-            </section>
 
-            <!-- Find My Hospital -->
-            <section class="project row">
-                <div class="project-description col-sm-7">
-                    <h3>Find My Hospital</h3>
-                    <p>
-                        Find My Hospital allows users to create an map of nearby hospitals. Results are displayed with markers containg useful information,
-                        such as name, address, and ratings.
-                    </p>
+            </div>
 
-                    <ul class="project-stack">
-                        <li>JQuery</li>
-                        <li>Google Maps API</li>
-                        <li>Google Places API</li>
-                    </ul>
-
-                    <a href="https://daviddinnison.github.io/gapi-hospital/" target="_blank" class="live-demo">Demo</a>
-                    <a href="https://github.com/daviddinnison/gapi-hospital" target="_blank" class="source-code">Code</a>
-                </div>
-                <div class="app-screenshot col-sm-5">
-
-                    <img src="images/find-my-hospital.PNG" alt="Find My Hospital" class="img-responsive">
-
-                </div>
-
-            </section>
+        </section> -->
         </section>
     </main>
 
