@@ -20,8 +20,6 @@ a {
 
 .main-nav a {
   color: #3a3a3a;
-  font-size: 18px;
-  padding: 18px;
 }
 
 .main-nav a:last-child {
@@ -29,12 +27,13 @@ a {
 }
 
 .main-nav ul {
-  padding: 15px;
+  /* padding: 15px; */
   margin: 0px;
   text-align: right;
 }
 
 .main-nav li {
+  padding: 10px;
   display: inline-block;
   font-size: 20px;
 }
@@ -54,7 +53,6 @@ a {
 
 header {
   background: url("../images/architecture-839362_1920.jpg") no-repeat center;
-  /* background: url("../images/sunset-2976428.png") no-repeat; */
   font-family: "Fjalla One", sans-serif;
   padding: 60px;
   height: 480px;
@@ -64,8 +62,6 @@ header {
 }
 
 .titles {
-  /* background-color: lightgrey; */
-  /* background: rgba(255, 255, 255, 0.5); */
   padding: 20px;
   width: auto;
 }
@@ -100,20 +96,18 @@ header {
 /* PROJECT */
 
 .project {
-  /* margin-bottom: 40px; */
-  /* padding-left: 80px; */
+
 }
 
 .project-description {
-  margin: 0px auto;
-  margin-bottom: 100px;
+  margin: 60px auto;
   max-width: 60%;
 }
 
 .app-screenshot img {
   display: block;
   margin: 30px auto;
-  margin-bottom: 50px;
+  /* margin-bottom: 50px; */
   max-width: 100%;
 }
 
@@ -155,11 +149,6 @@ header {
   content: "";
   display: block;
 }
-
-/* .app-screenshot img {
-  display: block;
-  margin: 100px 0px;
-} */
 
 /* PROJECT BUTTONS */
 
@@ -232,7 +221,7 @@ header {
   .project {
     display: block;
     padding: 0px;
-    margin-bottom: 80px;
+    /* margin-bottom: 80px; */
   }
 }
 
@@ -253,13 +242,21 @@ header {
   .titles > h2 {
     font-size: 30px;
   }
+  .work {
+    padding-top: 0px;
+  }
   .about {
+    margin-bottom: 0px;
+    margin-top: 15px;
     max-width: 95%;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 0px;
+  padding-top: 0px;
   }
   .project {
     display: block;
     padding: 0px;
-    margin-bottom: 80px;
   }
   .project-description,
   .app-screenshot img {
@@ -273,7 +270,10 @@ header {
     max-width: 100%;
   }
   .app-screenshot img {
-    margin-bottom: 40px;
+    margin: 60px auto;
+  }
+  main {
+    margin-bottom: 50px;
   }
   .contact {
     padding: 20px;
