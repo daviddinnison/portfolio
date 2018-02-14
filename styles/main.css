@@ -6,6 +6,11 @@ body {
   margin: 0px;
 }
 
+/* prevents right scroll */
+html,
+body {
+  overflow-x: hidden;
+}
 /* STYLES */
 
 a {
@@ -13,7 +18,8 @@ a {
   text-decoration: none;
 }
 
-.about, .project-description {
+.about,
+.project-description {
   color: #616161;
 }
 
